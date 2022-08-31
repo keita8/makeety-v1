@@ -1130,6 +1130,11 @@ main .flexwrap {
 
 /* --------------------------------------------------FOOTER-------------------------------------- */
 
+.widgets {
+    background-color: var(--light-bg-color);
+    padding: 3.5em 2.5em;
+}
+
 .newsletter {
     padding: 2.5em 0;
     background-color: var(--dark-color);
@@ -1173,7 +1178,8 @@ main .flexwrap {
         font-size: 1em;
     }
     .products.mini,
-    .banner .row {
+    .banner .row,
+    .widgets .row {
         flex: 0 0 50%;
     }
     .products.main .item {
@@ -1355,7 +1361,8 @@ main .flexwrap {
     .products.big .media {
         max-height: 373px;
     }
-    .products.main .item {
+    .products.main .item,
+    .widgets .row {
         flex: 0 0 25%;
     }
     .newsletter .box {
