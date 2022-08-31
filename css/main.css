@@ -890,7 +890,7 @@ h3) span:last-child {
 .products:where(.big,
 .main,
 .one) .content {
-    gap: 1em;
+    gap: 0.5em;
     margin-top: 1.25em;
 }
 
@@ -906,6 +906,19 @@ h3) span:last-child {
     width: 100%;
     height: 20px;
 }
+
+
+/* DEFINIR LA LARGEUR DES STARS */
+
+.stars {
+    width: 70px;
+}
+
+
+/* .products .item:where(:nth-child(3),
+ :nth-child(3)) .stars {
+    width: 64px;
+} */
 
 .ri-star-fill:before {
     content: "\f186";
@@ -1219,7 +1232,7 @@ main .flexwrap {
     .products.big .media {
         max-height: 373px;
     }
-    .products.mini {
+    .products.main .item {
         flex: 0 0 25%;
     }
 }
