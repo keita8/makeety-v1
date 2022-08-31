@@ -795,7 +795,7 @@ h3) span:last-child {
     color: var(--light-text-color);
 }
 
-.products :where(.image,
+.products:where(.image,
 .thumbnail) img {
     transition: transform .3s;
 }
@@ -888,7 +888,8 @@ h3) span:last-child {
 }
 
 .products:where(.big,
-.main-one) .content {
+.main,
+.one) .content {
     gap: 1em;
     margin-top: 1.25em;
 }
