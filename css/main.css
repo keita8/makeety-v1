@@ -1062,8 +1062,8 @@ main .flexwrap {
     background-color: var(--border-color);
 }
 
-.banner :where(.text-content,
-.over-link) {
+.banner .text-content,
+.banner .over-link {
     position: absolute;
     top: 0;
     left: 0;
@@ -1082,6 +1082,10 @@ main .flexwrap {
 
 .banner h3 span {
     font-size: 80%;
+}
+
+.banner .primary-button {
+    z-index: 3;
 }
 
 
