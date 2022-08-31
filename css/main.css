@@ -1136,6 +1136,10 @@ main .flexwrap {
     color: var(--white-color);
 }
 
+.newsletter form input {
+    font-size: 1em;
+}
+
 .newsletter h3 {
     font-size: 1.5em;
 }
