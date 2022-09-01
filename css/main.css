@@ -253,7 +253,7 @@
     
     form.search input {
         line-height: 3.25em;
-        padding: 0 7em 0 4.5em;
+        padding: 0 7em 0 1em;
         border: none;
         outline: none;
         width: var(--percent100);
@@ -1236,6 +1236,34 @@
     .search-bottom .t-close:hover {
         background-color: var(--primary-color);
     }
+    /*----------------------------------------------OVERLAY-------------------------------------------- */
+    /* .overlay {
+        position: fixed;
+        width: var(--percent100);
+        height: var(--percent100);
+        top: 0;
+        left: 0;
+        z-index: 20000;
+        background-color: rgba (0, 0, 0, 0.4);
+        visibility: hidden;
+        opacity: 0;
+        will-change: visibility, opacity;
+    }
+    
+    .showmenu .overlay {
+        opacity: 1;
+        visibility: visible;
+    } */
+    /*---------------------------- SINGLE PAGE SHOW AND HIDE CATEGORIE HAMBURGER MENU ----------- */
+    /* .page-home .dpt-cat .dpt-trigger,
+    .dpt-trigger .ri-close-line,
+    .showdpt .dpt-trigger .ri-menu-3-line {
+        display: none;
+    }
+    
+    .showdpt .dpt-trigger .ri-close-line {
+        display: block;
+    } */
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     
     @media screen and (min-width: 481px) {

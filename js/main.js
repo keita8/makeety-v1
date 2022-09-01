@@ -105,3 +105,12 @@ searchButton.addEventListener('click', function() {
 tClose.addEventListener('click', function() {
     showClass.classList.remove('showsearch')
 })
+
+// SHOW CATEGORIE IN SINGLE PAGE
+
+const dptButton = document.querySelector('.dpt-cat .dpt-trigger'),
+    dptClass = document.querySelector('.site');
+
+dptButton.addEventListener('click', function() {
+    dptClass.classList.toggle('showdpt');
+})
