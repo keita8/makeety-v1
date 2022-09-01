@@ -1193,6 +1193,59 @@ footer {
 }
 
 
+/*-----------------------------------------------MENU BOTTOM------------------------------------------ */
+
+.menu-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    background-color: var(--white-color);
+    box-shadow: 0 -2px 10px rgb(0 0 0 / 10%);
+    z-index: 1000;
+}
+
+.menu-bottom nav li {
+    flex: 1;
+}
+
+.menu-bottom nav li a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em 0;
+    color: var(--light-text-color);
+    transition: var(--trans-color);
+}
+
+.menu-bottom nav li a:focus,
+.menu-bottom nav li a:hover {
+    color: var(--dark-color);
+}
+
+.menu-bottom nav li a:active {
+    color: var(--primary-color);
+}
+
+.menu-bottom nav li a i {
+    font-size: 1.25em;
+}
+
+.menu-bottom nav li a span {
+    font-size: var(--font-smaller);
+}
+
+.menu-bottom .fly-item {
+    right: 50%;
+    width: 16px;
+    border-radius: var(--percent50);
+    margin-right: -20px;
+    background-color: var(--secondary-dark-color);
+}
+
+
 /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
 
 @media screen and (min-width: 481px) {
