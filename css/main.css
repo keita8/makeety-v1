@@ -1246,6 +1246,36 @@ footer {
 }
 
 
+/*--------------------------------------- MOBILE SEARCH FORM ---------------------------------------*/
+
+.search-bottom {
+    position: fixed;
+    bottom: 60px;
+    width: var(--percent100);
+    padding: 2.5em 0;
+    background-color: var(--secondary-dark-color);
+    z-index: 1001;
+    visibility: hidden;
+    opacity: 0;
+    will-change: visibility, opacity;
+}
+
+.showsearch .search-bottom {
+    visibility: inherit;
+    opacity: 1;
+}
+
+.search-bottom .t-close {
+    position: absolute;
+    top: -54px;
+    right: 0;
+}
+
+.search-bottom .t-close:hover {
+    background-color: var(--primary-color);
+}
+
+
 /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
 
 @media screen and (min-width: 481px) {
