@@ -971,9 +971,10 @@
         width: 100%;
         margin-bottom: 2rem;
     }
-    /* #page>main>div.trending>div>div>div.sectop.flexitem {
+    
+    #page>main>div.trending>div>div>div.sectop.flexitem {
         justify-content: center;
-    } */
+    }
     /* .newsletter form input {
     padding: 0px 20px;
 } */
@@ -993,10 +994,10 @@
     .row .products .mini {
         margin-bottom: 0;
     }
-    /*     
+    
     #page>main>div.trending>div>div>div.column>div>div:nth-child(2) {
         margin-bottom: 0;
-    } */
+    }
     /*-----------------------------------------------PRODUCT MAIN PRODUCT----------------------------------- */
     
     .products.main .item {
@@ -1087,9 +1088,10 @@
     .banner h3 span {
         font-size: 80%;
     }
-    /* #page>header>div.header-nav>div>div>div.right>ul>li:nth-child(2)>a>div {
+    
+    #page>header>div.header-nav>div>div>div.right>ul>li:nth-child(2)>a>div {
         margin-right: 20px;
-    } */
+    }
     /* --------------------------------------------------FOOTER-------------------------------------- */
     
     .widgets {
@@ -1234,6 +1236,24 @@
     .search-bottom .t-close:hover {
         background-color: var(--primary-color);
     }
+    /*----------------------------------------------OVERLAY-------------------------------------------- */
+    /* .overlay {
+        position: fixed;
+        width: var(--percent100);
+        height: var(--percent100);
+        top: 0;
+        left: 0;
+        z-index: 20000;
+        background-color: rgba (0, 0, 0, 0.4);
+        visibility: hidden;
+        opacity: 0;
+        will-change: visibility, opacity;
+    }
+    
+    .showmenu .overlay {
+        opacity: 1;
+        visibility: visible;
+    } */
     /*---------------------------- SINGLE PAGE SHOW AND HIDE CATEGORIE HAMBURGER MENU ----------- */
     
     .page-home .dpt-cat .dpt-trigger,
@@ -1245,72 +1265,15 @@
     .showdpt .dpt-trigger .ri-close-line {
         display: block;
     }
-    
-    .breadcrumb {
-        font-size: 18px;
-        margin: 2em;
+    /*--------------------------------------- SINGLE PAGE --------------------------------------------*/
+    /*    .page-home .dpt-cat .dpt-trigger,
+    .dpt-trigger .ri-close-line {
+        display: none;
     }
     
-    .breadcrumb li:not(:last-child)::after {
-        content: '/';
-        padding: 0 0.35em;
-    }
-    
-    .breadcrumb li:last-child {
+    .ri-menu-3-line {
         display: block;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        color: var(--light-text-color);
-    }
-    
-    .products.one .item {
-        flex-direction: column;
-    }
-    
-    .products.one .price .discount {
-        font-size: 1em;
-        font-weight: var(--fw7);
-        line-height: 1;
-        position: absolute;
-        top: 0;
-        bottom: auto;
-        padding: 1em;
-        z-index: 2;
-        background-color: var(--dark-color);
-        color: var(--white-color);
-        border-radius: var(--percent50);
-        margin: 0.5em;
-    }
-    
-    .products.one :where(.big-image,
-    .small-image) {
-        overflow: hidden;
-    }
-    
-    .products.one :where(.big-image,
-    .small-image) img {
-        object-fit: cover;
-        width: var(--percent100);
-        height: var(--percent100);
-        display: block;
-    }
-    
-    .products.one .thumbnail-show {
-        position: relative;
-        width: 130px;
-        height: 110px;
-        overflow: hidden;
-        margin: 0 2em 2em 0;
-    }
-    /* .products.one .small-image {
-        margin-top: 1em;
     } */
-    
-    .products.one .big-image {
-        position: relative;
-        margin-bottom: 1em;
-    }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     
     @media screen and (min-width: 481px) {
@@ -1319,17 +1282,6 @@
         }
         .iscart {
             display: none;
-        }
-        .products.one .big-image {
-            width: 600px;
-            margin-bottom: 2em;
-        }
-        .products.one .image-show {
-            height: 600px;
-        }
-        .products.one .thumbnail-show {
-            width: 160px;
-            height: 160px;
         }
     }
     
@@ -1350,10 +1302,6 @@
         }
         .products.main .item {
             flex: 0 0 33.3333%;
-        }
-        .products.one .row {
-            flex: 0 0 50%;
-            width: 50%;
         }
     }
     
@@ -1542,11 +1490,5 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
-        #page .dpt-menu {
-            display: none;
-        }
-        #page.showdpt .dpt-menu {
-            display: block;
         }
     }

@@ -1234,6 +1234,7 @@
     .search-bottom .t-close:hover {
         background-color: var(--primary-color);
     }
+    /*----------------------------------------------OVERLAY-------------------------------------------- */
     /*---------------------------- SINGLE PAGE SHOW AND HIDE CATEGORIE HAMBURGER MENU ----------- */
     
     .page-home .dpt-cat .dpt-trigger,
@@ -1245,72 +1246,10 @@
     .showdpt .dpt-trigger .ri-close-line {
         display: block;
     }
-    
-    .breadcrumb {
-        font-size: 18px;
-        margin: 2em;
-    }
-    
-    .breadcrumb li:not(:last-child)::after {
-        content: '/';
-        padding: 0 0.35em;
-    }
-    
-    .breadcrumb li:last-child {
+    /* .showdpt .dpt-trigger .ri-close-line {
         display: block;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        color: var(--light-text-color);
-    }
-    
-    .products.one .item {
-        flex-direction: column;
-    }
-    
-    .products.one .price .discount {
-        font-size: 1em;
-        font-weight: var(--fw7);
-        line-height: 1;
-        position: absolute;
-        top: 0;
-        bottom: auto;
-        padding: 1em;
-        z-index: 2;
-        background-color: var(--dark-color);
-        color: var(--white-color);
-        border-radius: var(--percent50);
-        margin: 0.5em;
-    }
-    
-    .products.one :where(.big-image,
-    .small-image) {
-        overflow: hidden;
-    }
-    
-    .products.one :where(.big-image,
-    .small-image) img {
-        object-fit: cover;
-        width: var(--percent100);
-        height: var(--percent100);
-        display: block;
-    }
-    
-    .products.one .thumbnail-show {
-        position: relative;
-        width: 130px;
-        height: 110px;
-        overflow: hidden;
-        margin: 0 2em 2em 0;
-    }
-    /* .products.one .small-image {
-        margin-top: 1em;
     } */
-    
-    .products.one .big-image {
-        position: relative;
-        margin-bottom: 1em;
-    }
+    /*--------------------------------------- SINGLE PAGE --------------------------------------------*/
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     
     @media screen and (min-width: 481px) {
@@ -1319,17 +1258,6 @@
         }
         .iscart {
             display: none;
-        }
-        .products.one .big-image {
-            width: 600px;
-            margin-bottom: 2em;
-        }
-        .products.one .image-show {
-            height: 600px;
-        }
-        .products.one .thumbnail-show {
-            width: 160px;
-            height: 160px;
         }
     }
     
@@ -1350,10 +1278,6 @@
         }
         .products.main .item {
             flex: 0 0 33.3333%;
-        }
-        .products.one .row {
-            flex: 0 0 50%;
-            width: 50%;
         }
     }
     

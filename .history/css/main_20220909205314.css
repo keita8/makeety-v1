@@ -1321,16 +1321,9 @@
             display: none;
         }
         .products.one .big-image {
-            width: 600px;
             margin-bottom: 2em;
         }
-        .products.one .image-show {
-            height: 600px;
-        }
-        .products.one .thumbnail-show {
-            width: 160px;
-            height: 160px;
-        }
+        .products.one .image-show{}
     }
     
     @media screen and (max-width: 481px) {

@@ -1303,6 +1303,8 @@
         overflow: hidden;
         margin: 0 2em 2em 0;
     }
+    
+    .
     /* .products.one .small-image {
         margin-top: 1em;
     } */
@@ -1321,14 +1323,12 @@
             display: none;
         }
         .products.one .big-image {
-            width: 600px;
             margin-bottom: 2em;
         }
         .products.one .image-show {
-            height: 600px;
+            height: auto;
         }
         .products.one .thumbnail-show {
-            width: 160px;
             height: 160px;
         }
     }

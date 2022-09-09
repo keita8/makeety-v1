@@ -1288,6 +1288,11 @@
         overflow: hidden;
     }
     
+    .products.one .big-image {
+        position: relative;
+        margin-bottom: 1em;
+    }
+    
     .products.one :where(.big-image,
     .small-image) img {
         object-fit: cover;
@@ -1303,14 +1308,6 @@
         overflow: hidden;
         margin: 0 2em 2em 0;
     }
-    /* .products.one .small-image {
-        margin-top: 1em;
-    } */
-    
-    .products.one .big-image {
-        position: relative;
-        margin-bottom: 1em;
-    }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     
     @media screen and (min-width: 481px) {
@@ -1319,17 +1316,6 @@
         }
         .iscart {
             display: none;
-        }
-        .products.one .big-image {
-            width: 600px;
-            margin-bottom: 2em;
-        }
-        .products.one .image-show {
-            height: 600px;
-        }
-        .products.one .thumbnail-show {
-            width: 160px;
-            height: 160px;
         }
     }
     

@@ -1264,10 +1264,6 @@
         color: var(--light-text-color);
     }
     
-    .products.one .item {
-        flex-direction: column;
-    }
-    
     .products.one .price .discount {
         font-size: 1em;
         font-weight: var(--fw7);
@@ -1288,6 +1284,11 @@
         overflow: hidden;
     }
     
+    .products.one .big-image {
+        position: relative;
+        margin-bottom: 1em;
+    }
+    
     .products.one :where(.big-image,
     .small-image) img {
         object-fit: cover;
@@ -1301,15 +1302,6 @@
         width: 130px;
         height: 110px;
         overflow: hidden;
-        margin: 0 2em 2em 0;
-    }
-    /* .products.one .small-image {
-        margin-top: 1em;
-    } */
-    
-    .products.one .big-image {
-        position: relative;
-        margin-bottom: 1em;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     
@@ -1319,17 +1311,6 @@
         }
         .iscart {
             display: none;
-        }
-        .products.one .big-image {
-            width: 600px;
-            margin-bottom: 2em;
-        }
-        .products.one .image-show {
-            height: 600px;
-        }
-        .products.one .thumbnail-show {
-            width: 160px;
-            height: 160px;
         }
     }
     
