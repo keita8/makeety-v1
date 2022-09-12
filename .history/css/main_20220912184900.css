@@ -1519,18 +1519,7 @@
         cursor: pointer !important;
     }
     
-    #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>div.actions {
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .actions .qty-control.flexitem {
-        margin: 0;
-    }
-    
-    #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>div.actions {
-        justify-content: space-around;
-    }
+    #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>div.actions
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {

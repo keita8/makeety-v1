@@ -1525,11 +1525,8 @@
     }
     
     .actions .qty-control.flexitem {
+        justify-content: space-between;
         margin: 0;
-    }
-    
-    #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>div.actions {
-        justify-content: space-around;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

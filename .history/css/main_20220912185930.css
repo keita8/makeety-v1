@@ -1529,7 +1529,7 @@
     }
     
     #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>div.actions {
-        justify-content: space-around;
+        justify-content: s
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
