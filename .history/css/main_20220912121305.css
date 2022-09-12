@@ -1322,16 +1322,6 @@
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     
-    @media screen and (max-width: 481px) {
-        #page>main>div.single-product>div>div>div.breadcrumb {
-            display: none;
-        }
-        .products.one .image-show {
-            width: 100%;
-            height: auto;
-        }
-    }
-    
     @media screen and (min-width: 481px) {
         .products.main .item {
             flex: 0 0 50%;
@@ -1350,9 +1340,6 @@
             width: 160px;
             height: 160px;
         }
-        #page>main>div.single-product>div>div>div.breadcrumb {
-            display: none;
-        }
     }
     
     @media screen and (max-width: 481px) {
@@ -1362,9 +1349,7 @@
         .products.one .big-image {
             margin-bottom: 2em;
         }
-        .products.one .image-show {
-            height: 650px;
-        }
+        .pr
     }
     
     @media screen and (min-width: 768px) {

@@ -1327,7 +1327,7 @@
             display: none;
         }
         .products.one .image-show {
-            width: 100%;
+            width: 700px;
             height: auto;
         }
     }

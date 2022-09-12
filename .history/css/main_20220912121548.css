@@ -1324,11 +1324,7 @@
     
     @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {
-            display: none;
-        }
-        .products.one .image-show {
-            width: 100%;
-            height: auto;
+            display: 0;
         }
     }
     
