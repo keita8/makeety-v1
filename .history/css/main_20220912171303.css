@@ -1435,10 +1435,6 @@
     .products .variant label::before {
         opacity: 1;
     }
-    
-    .products .variant label[for="cogrey"]::before {
-        background-color: #576574;
-    }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {

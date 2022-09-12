@@ -1437,7 +1437,7 @@
     }
     
     .products .variant label[for="cogrey"]::before {
-        background-color: #576574;
+        background-color: #[`];
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

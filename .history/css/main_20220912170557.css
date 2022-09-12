@@ -1427,17 +1427,6 @@
     .products .variant input {
         clip: rect(0, 0, 0, 0);
         overflow: hidden;
-        position: absolute;
-        height: 0;
-        width: 0;
-    }
-    
-    .products .variant label::before {
-        opacity: 1;
-    }
-    
-    .products .variant label[for="cogrey"]::before {
-        background-color: #576574;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

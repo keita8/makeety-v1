@@ -890,7 +890,6 @@
     }
     
     .single-page-rating {
-        display: flex;
         margin-bottom: 1em;
     }
     
@@ -1379,65 +1378,6 @@
     
     #page>main>div.features>div>div>div>div.products.main.flexwrap>div:nth-child(2)>div.content>div.rating {
         width: 70%;
-    }
-    
-    #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>div.rating.single-page-rating {
-        width: 50%;
-    }
-    
-    .products.one .price {
-        display: flex;
-        gap: 1em;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    
-    .products.one .price .current {
-        font-size: 1.5em;
-    }
-    
-    .products.one .sku {
-        font-size: 18px;
-    }
-    
-    .products.one .mini-text {
-        font-size: 16px;
-        color: var(--dark-color);
-    }
-    
-    .products .variant form {
-        display: flex;
-        margin-top: 0.5em;
-    }
-    
-    .products .variant form p {
-        position: relative;
-        margin: 0 0.5em 0.5em;
-    }
-    
-    .products .variant .circle {
-        display: block;
-        position: static;
-        top: 0;
-        margin: 0;
-        cursor: pointer !important;
-        z-index: 1;
-    }
-    
-    .products .variant input {
-        clip: rect(0, 0, 0, 0);
-        overflow: hidden;
-        position: absolute;
-        height: 0;
-        width: 0;
-    }
-    
-    .products .variant label::before {
-        opacity: 1;
-    }
-    
-    .products .variant label[for="cogrey"]::before {
-        background-color: #576574;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
