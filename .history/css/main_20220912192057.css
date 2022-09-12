@@ -1527,12 +1527,12 @@
     .actions .qty-control.flexitem {
         margin: 0;
     }
-    /* #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>div.actions {
+    
+    #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>div.actions {
         flex-direction: column;
-        align-items: start;
-        gap: 15px;
+        align-items: center;
         justify-content: start;
-    } */
+    }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {
