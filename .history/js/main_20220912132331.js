@@ -125,20 +125,8 @@ var productThumb = new Swiper('.small-image', {
     watchSlidesProgress: true,
     breakpoints: {
         481: {
-            spaceBetween: 32,
+            spaceBetween:
         }
-    }
-})
-
-var productBig = new Swiper('.big-image', {
-    loop: true,
-    autoHeight: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    thumbs: {
-        swiper: productThumb
     }
 
 })

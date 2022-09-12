@@ -129,16 +129,3 @@ var productThumb = new Swiper('.small-image', {
         }
     }
 })
-
-var productBig = new Swiper('.big-image', {
-    loop: true,
-    autoHeight: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    thumbs: {
-        swiper: productThumb
-    }
-
-})

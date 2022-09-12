@@ -136,9 +136,6 @@ var productBig = new Swiper('.big-image', {
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-    },
-    thumbs: {
-        swiper: productThumb
     }
 
 })

@@ -138,7 +138,7 @@ var productBig = new Swiper('.big-image', {
         prevEl: '.swiper-button-prev',
     },
     thumbs: {
-        swiper: productThumb
+        swiper: produ
     }
 
 })

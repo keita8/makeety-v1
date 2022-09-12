@@ -1321,29 +1321,10 @@
         margin-left: 0;
     }
     
-    .products :is(.swiper-button-next,
+    .products is(.swiper-button-next,
     .swiper-button-prev) {
         outline: none;
         color: var(--secondary-dark-color);
-        transition: var(--trans-background), transform .3s;
-    }
-    
-    .products .big-image:hover .swiper-button-next {
-        transform: translateX(10px);
-    }
-    
-    .products .big-image:hover .swiper-button-prev {
-        transform: translateX(-10px);
-    }
-    
-    .products .big-image:hover :is(.swiper-button-next,
-    .swiper-button-prev) {
-        background-color: var(--light-bg-color);
-    }
-    
-    .products :is(.swiper-button-next,
-    .swiper-button-prev)::after {
-        font-size: 1.5em;
     }
     
     .single-product .container {

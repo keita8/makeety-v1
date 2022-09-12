@@ -1336,16 +1336,6 @@
         transform: translateX(-10px);
     }
     
-    .products .big-image:hover :is(.swiper-button-next,
-    .swiper-button-prev) {
-        background-color: var(--light-bg-color);
-    }
-    
-    .products :is(.swiper-button-next,
-    .swiper-button-prev)::after {
-        font-size: 1.5em;
-    }
-    
     .single-product .container {
         width: 100%;
     }

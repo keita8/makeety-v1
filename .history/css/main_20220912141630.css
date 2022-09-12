@@ -1337,9 +1337,7 @@
     }
     
     .products .big-image:hover :is(.swiper-button-next,
-    .swiper-button-prev) {
-        background-color: var(--light-bg-color);
-    }
+    .swiper-button-prev) {}
     
     .products :is(.swiper-button-next,
     .swiper-button-prev)::after {

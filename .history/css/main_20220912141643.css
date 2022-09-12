@@ -1338,7 +1338,7 @@
     
     .products .big-image:hover :is(.swiper-button-next,
     .swiper-button-prev) {
-        background-color: var(--light-bg-color);
+        background-color: --li
     }
     
     .products :is(.swiper-button-next,
