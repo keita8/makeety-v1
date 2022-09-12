@@ -1457,29 +1457,9 @@
     .single-product .variant form p input:checked+label {
         background-color: transparent;
         border: 2px solid var(--dark-color);
-        color: var(--white-color);
     }
     
-    .products .sizes .variant label::before {
-        background-color: #fff;
-    }
-    
-    .products .sizes .variant label span {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: var(--percent100);
-        height: var(--percent100);
-        font-size: 0.80em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .single-product .sizes .variant form p input:checked+label::before {
-        background-color: var(--dark-color);
-        opacity: 1;
-    }
+    .products .sizes .variant label
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {

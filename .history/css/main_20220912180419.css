@@ -1457,7 +1457,6 @@
     .single-product .variant form p input:checked+label {
         background-color: transparent;
         border: 2px solid var(--dark-color);
-        color: var(--white-color);
     }
     
     .products .sizes .variant label::before {
@@ -1471,14 +1470,8 @@
         width: var(--percent100);
         height: var(--percent100);
         font-size: 0.80em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .single-product .sizes .variant form p input:checked+label::before {
-        background-color: var(--dark-color);
-        opacity: 1;
+        displex;
+        flex;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

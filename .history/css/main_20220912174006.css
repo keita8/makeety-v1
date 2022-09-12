@@ -1419,8 +1419,6 @@
         display: block;
         position: static;
         top: 0;
-        left: 0;
-        right: 0;
         margin: 0;
         cursor: pointer !important;
         z-index: 1;
@@ -1443,7 +1441,7 @@
     }
     
     .products .variant label[for="coblue"]::before {
-        background-color: #fff;
+        background-color: #45a0ff;
     }
     
     .products .variant label[for="cogreen"]::before {
@@ -1451,34 +1449,7 @@
     }
     
     .products .variant label[for="cobrown"]::before {
-        background-color: navy;
-    }
-    
-    .single-product .variant form p input:checked+label {
-        background-color: transparent;
-        border: 2px solid var(--dark-color);
-        color: var(--white-color);
-    }
-    
-    .products .sizes .variant label::before {
-        background-color: #fff;
-    }
-    
-    .products .sizes .variant label span {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: var(--percent100);
-        height: var(--percent100);
-        font-size: 0.80em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .single-product .sizes .variant form p input:checked+label::before {
-        background-color: var(--dark-color);
-        opacity: 1;
+        background-color: #b;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

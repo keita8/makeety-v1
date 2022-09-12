@@ -1457,7 +1457,6 @@
     .single-product .variant form p input:checked+label {
         background-color: transparent;
         border: 2px solid var(--dark-color);
-        color: var(--white-color);
     }
     
     .products .sizes .variant label::before {
