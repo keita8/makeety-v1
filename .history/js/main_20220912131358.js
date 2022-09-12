@@ -115,6 +115,4 @@ dptButton.addEventListener('click', function() {
     dptClass.classList.toggle('showdpt');
 })
 
-// SINGLE PAGE CAROUSEL
-
-var productThumb =
+// SINGLE PAGE CAROUSSEL

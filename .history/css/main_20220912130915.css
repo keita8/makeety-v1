@@ -1350,8 +1350,8 @@
             height: 600px;
         }
         .products.one .thumbnail-show {
-            /* width: 140px; */
-            height: 160px;
+            width: 140px;
+            height: 1px;
         }
         #page>main>div.single-product>div>div>div.breadcrumb {
             display: none;

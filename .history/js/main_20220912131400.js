@@ -116,5 +116,3 @@ dptButton.addEventListener('click', function() {
 })
 
 // SINGLE PAGE CAROUSEL
-
-var productThumb =

@@ -114,7 +114,3 @@ const dptButton = document.querySelector('.dpt-cat .dpt-trigger'),
 dptButton.addEventListener('click', function() {
     dptClass.classList.toggle('showdpt');
 })
-
-// SINGLE PAGE CAROUSEL
-
-var productThumb =
