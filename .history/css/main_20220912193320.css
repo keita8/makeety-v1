@@ -922,16 +922,9 @@
         -webkit-box-orient: vertical;
     }
     
-    .products .price .normal,
-    .products .price .current {
-        margin-top: 1em;
-        margin-bottom: 1em;
-    }
-    
     .products .price .current {
         /* font-size: calc(1em + 1vw); */
-        font-size: 2em;
-        font-weight: var(--fw2);
+        font-size: 1em;
         color: var(--primary-color);
         margin-right: 0.25em;
     }
