@@ -1515,8 +1515,7 @@
     }
     
     .products .actions .button-cart button {
-        width: var(--percent100);
-        cursor: pointer !important;
+        width: -;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

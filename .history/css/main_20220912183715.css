@@ -1511,12 +1511,7 @@
     
     .products .actions .button-cart {
         flex: 1;
-        min-width: 200px;
-    }
-    
-    .products .actions .button-cart button {
-        width: var(--percent100);
-        cursor: pointer !important;
+        min-width:
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

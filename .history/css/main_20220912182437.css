@@ -924,7 +924,7 @@
     
     .products .price .current {
         /* font-size: calc(1em + 1vw); */
-        font-size: 1em;
+        font-size: 1rem;
         color: var(--primary-color);
         margin-right: 0.25em;
     }
@@ -1489,34 +1489,7 @@
     .products .qty-control {
         width: fit-content;
         padding: 0.5em;
-        border: 1px solid var(--border-color);
-        margin: 0 2em 2em 0;
-    }
-    
-    .products .actions :where(input,
-    button) {
-        font-size: 1.25em;
-        outline: none;
-        border: none;
-    }
-    
-    .products .actions input {
-        width: 50px;
-        text-align: center;
-    }
-    
-    .products .qty-control button::before {
-        background-color: transparent;
-    }
-    
-    .products .actions .button-cart {
-        flex: 1;
-        min-width: 200px;
-    }
-    
-    .products .actions .button-cart button {
-        width: var(--percent100);
-        cursor: pointer !important;
+        border:
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
