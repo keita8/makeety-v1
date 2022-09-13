@@ -929,7 +929,7 @@
     
     .products .price .current {
         /* font-size: calc(1em + 1vw); */
-        font-size: 1.2em;
+        font-size: 2em;
         font-weight: var(--fw2);
         color: var(--primary-color);
         /* margin-right: 0.25em; */
