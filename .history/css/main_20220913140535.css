@@ -1630,7 +1630,7 @@
     }
     
     .products .collapse .has-child {
-        margin-bottom: 2em;
+        margin-bottom: ;
     }
     
     .products .collapse table :where(th,
@@ -1641,14 +1641,6 @@
     
     .products .collapse .content {
         display: none;
-    }
-    
-    .products .collapse .expand .content {
-        display: flex;
-    }
-    
-    .products .collapse .expand>a::before {
-        content: '-';
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

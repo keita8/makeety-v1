@@ -1647,9 +1647,7 @@
         display: flex;
     }
     
-    .products .collapse .expand>a::before {
-        content: '-';
-    }
+    .products .collapse .expand
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {

@@ -1608,47 +1608,13 @@
     }
     
     .products .collapse .content li span:first-child {
-        min-width: 100px;
-        display: inline-block;
-        font-weight: var(--fw7);
-        text-transform: uppercase;
+        ''
     }
     
     .products .collapse .has-child>a::before {
         content: '+';
         position: absolute;
         left: 0;
-    }
-    
-    .products .collapse table {
-        line-height: 3em;
-    }
-    
-    .products .collapse table thead th {
-        vertical-align: bottom;
-        border-bottom: 2px solid var(--dark-color);
-    }
-    
-    .products .collapse .has-child {
-        margin-bottom: 2em;
-    }
-    
-    .products .collapse table :where(th,
-    td) {
-        border-bottom: 1px solid var(--dark-color);
-        padding-left: 2em;
-    }
-    
-    .products .collapse .content {
-        display: none;
-    }
-    
-    .products .collapse .expand .content {
-        display: flex;
-    }
-    
-    .products .collapse .expand>a::before {
-        content: '-';
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

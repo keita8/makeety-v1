@@ -1646,10 +1646,6 @@
     .products .collapse .expand .content {
         display: flex;
     }
-    
-    .products .collapse .expand>a::before {
-        content: '-';
-    }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {

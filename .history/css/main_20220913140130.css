@@ -1629,27 +1629,8 @@
         border-bottom: 2px solid var(--dark-color);
     }
     
-    .products .collapse .has-child {
-        margin-bottom: 2em;
-    }
-    
     .products .collapse table :where(th,
-    td) {
-        border-bottom: 1px solid var(--dark-color);
-        padding-left: 2em;
-    }
-    
-    .products .collapse .content {
-        display: none;
-    }
-    
-    .products .collapse .expand .content {
-        display: flex;
-    }
-    
-    .products .collapse .expand>a::before {
-        content: '-';
-    }
+    td)
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {
