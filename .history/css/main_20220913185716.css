@@ -1863,7 +1863,7 @@
             display: none;
         }
         #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>form>div.colors>label {
-            margin-bottom: 12px;
+            margin-bottom: 12em;
         }
         /* .products.one .big-image {
             margin-bottom: 2em;

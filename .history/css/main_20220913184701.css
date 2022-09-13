@@ -1763,7 +1763,7 @@
     }
     
     .review-form p {
-        font-size: 1em;
+        font-size: 1.25em;
         margin-right: 1em;
     }
     
@@ -1798,7 +1798,7 @@
     form p {
         display: flex;
         flex-direction: column;
-        width: var(--percent100);
+        width: ;
         margin-bottom: 2em;
     }
     
@@ -1808,7 +1808,7 @@
         padding: 1em;
         border: 1px solid var(--border-color);
         outline: none;
-        font-size: 15px;
+        font-size: 14px;
     }
     
     form label {
@@ -1858,12 +1858,6 @@
     @media screen and (max-width: 481px) {
         .iscart {
             display: none;
-        }
-        #page>main>div.single-product>div>div>div.breadcrumb>ul {
-            display: none;
-        }
-        #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>form>div.colors>label {
-            margin-bottom: 12px;
         }
         /* .products.one .big-image {
             margin-bottom: 2em;

@@ -1859,12 +1859,7 @@
         .iscart {
             display: none;
         }
-        #page>main>div.single-product>div>div>div.breadcrumb>ul {
-            display: none;
-        }
-        #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>form>div.colors>label {
-            margin-bottom: 12px;
-        }
+        #page>main>div.single-product>div>div>div.breadcrumb>ul
         /* .products.one .big-image {
             margin-bottom: 2em;
         }

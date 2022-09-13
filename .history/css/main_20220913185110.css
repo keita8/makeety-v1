@@ -1800,6 +1800,9 @@
         flex-direction: column;
         width: var(--percent100);
         margin-bottom: 2em;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     form :where(input,
@@ -1858,12 +1861,6 @@
     @media screen and (max-width: 481px) {
         .iscart {
             display: none;
-        }
-        #page>main>div.single-product>div>div>div.breadcrumb>ul {
-            display: none;
-        }
-        #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>form>div.colors>label {
-            margin-bottom: 12px;
         }
         /* .products.one .big-image {
             margin-bottom: 2em;
