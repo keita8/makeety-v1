@@ -1706,7 +1706,6 @@
     .products .review-block-body .review-title {
         margin: 10px 0;
         text-transform: lowercase;
-        justify-content: end;
     }
     
     .products .review-block-body .review-rating {
@@ -1725,10 +1724,6 @@
     #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>div.description.collapse>ul>li:nth-child(4)>div>div>div>div.review-block-head>a {
         font-size: 18px;
         min-width: 200px;
-    }
-    
-    .products .review-block-body .item {
-        margin: 2em 0;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

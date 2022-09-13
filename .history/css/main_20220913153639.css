@@ -1727,9 +1727,7 @@
         min-width: 200px;
     }
     
-    .products .review-block-body .item {
-        margin: 2em 0;
-    }
+    review-block-body
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {
