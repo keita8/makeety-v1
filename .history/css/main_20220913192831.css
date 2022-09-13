@@ -43,18 +43,8 @@
         background-color: var(--white-color);
         height: 100vh;
     }
-    
-    .widgets .item li,
-    .product-categories .mini-links li,
-    .features .price {
-        font-size: 1rem;
-    }
-    /*     
-    .features .content .main-links {
-        font-size: 18px;
-    } */
-    
-    a {
+    widgets
+    . a {
         text-decoration: none;
         color: inherit;
     }

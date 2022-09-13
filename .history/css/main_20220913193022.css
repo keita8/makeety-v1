@@ -44,15 +44,9 @@
         height: 100vh;
     }
     
-    .widgets .item li,
-    .product-categories .mini-links li,
-    .features .price {
-        font-size: 1rem;
+    .widgets .item li {
+        font-size: 1px;
     }
-    /*     
-    .features .content .main-links {
-        font-size: 18px;
-    } */
     
     a {
         text-decoration: none;
