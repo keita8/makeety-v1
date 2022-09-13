@@ -1527,50 +1527,13 @@
     
     .choices-features {
         display: flex;
-        margin-top: 0.5em;
         flex-direction: column;
         justify-content: space-around;
         align-items: flex-start;
-        gap: 20px;
     }
     
-    .choices-features label[for="color"],
-    .choices-features label[for="sizes"] {
-        margin-bottom: 1em;
-        font-size: 1.2rem;
-    }
-    
-    .choices-features .actions circle {
-        display: block;
-        position: static;
-        top: 0;
-        margin: 0;
-        z-index: 1;
-    }
-    
-    #color,
-    #sizes {
-        padding: 10px 40px;
-        margin: 15px;
-        margin-left: 0;
-        outline: none;
-        border-radius: 5px;
-        border: 1px solid var(--dark-color);
-    }
-    
-    .products :where(.variant,
-    .actions) .circle {
-        display: block;
-        position: relative;
-        top: 0;
-        margin: 0;
-        cursor: pointer !important;
-        z-index: 1;
-    }
-    
-    #color option,
-    #sizes option {
-        font-size: 20px;
+    .choices-features .variant se {
+        padding: 10px 15px;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

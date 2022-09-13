@@ -1411,28 +1411,39 @@
         font-size: 16px;
         color: var(--dark-color);
     }
-    /* .products .variant form {
+    
+    .products .variant form {
         display: flex;
         margin-top: 0.5em;
     }
-     */
-    /* .products .variant form p {
+    
+    .products .variant form p {
         position: relative;
         margin: 0 0.5em 0.5em;
-    } */
-    /* .products .variant .circle {
+    }
+    
+    .products .variant .circle {
         display: block;
         position: static;
         top: 0;
         margin: 0;
         cursor: pointer !important;
         z-index: 1;
-    } */
+    }
+    
+    .products .variant input {
+        clip: rect(0, 0, 0, 0);
+        overflow: hidden;
+        position: relative;
+        height: 0;
+        width: 0;
+    }
     
     .products .variant label::before {
         opacity: 1;
     }
-    /* .products .variant label[for="cogrey"]::before {
+    
+    .products .variant label[for="cogrey"]::before {
         background-color: #ff6b6b;
     }
     
@@ -1447,7 +1458,6 @@
     .products .variant label[for="cobrown"]::before {
         background-color: navy;
     }
-     */
     
     .single-product .variant form p input:checked+label {
         background-color: transparent;
@@ -1458,7 +1468,8 @@
     .products .sizes .variant label::before {
         background-color: #fff;
     }
-    /* .products .sizes .variant label span {
+    
+    .products .sizes .variant label span {
         position: absolute;
         top: 0;
         left: 0;
@@ -1469,7 +1480,6 @@
         align-items: center;
         justify-content: center;
     }
-     */
     
     .single-product .sizes .variant form p input:checked+label::before {
         background-color: var(--dark-color);
@@ -1523,55 +1533,12 @@
     .actions .qty-control.flexitem {
         margin: 0;
     }
-    /*  Color & size and quantity choice of each article */
-    
-    .choices-features {
-        display: flex;
-        margin-top: 0.5em;
+    /* #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>div.actions {
         flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
-        gap: 20px;
-    }
-    
-    .choices-features label[for="color"],
-    .choices-features label[for="sizes"] {
-        margin-bottom: 1em;
-        font-size: 1.2rem;
-    }
-    
-    .choices-features .actions circle {
-        display: block;
-        position: static;
-        top: 0;
-        margin: 0;
-        z-index: 1;
-    }
-    
-    #color,
-    #sizes {
-        padding: 10px 40px;
-        margin: 15px;
-        margin-left: 0;
-        outline: none;
-        border-radius: 5px;
-        border: 1px solid var(--dark-color);
-    }
-    
-    .products :where(.variant,
-    .actions) .circle {
-        display: block;
-        position: relative;
-        top: 0;
-        margin: 0;
-        cursor: pointer !important;
-        z-index: 1;
-    }
-    
-    #color option,
-    #sizes option {
-        font-size: 20px;
-    }
+        align-items: start;
+        gap: 15px;
+        justify-content: start;
+    } */
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {

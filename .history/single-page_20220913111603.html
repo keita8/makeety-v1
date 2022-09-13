@@ -475,51 +475,55 @@
                                                         </sub>
                                                     </span>
                                                 </div>
-                                                <form action="" aria-required="data" required method="POST" class="choices-features">
-                                                    <div class="colors">
-                                                        <label for="color">Couleur</label>
-                                                        <div class="variant">
 
-                                                            <!-- <label for="color">Couleur</label> -->
+                                                <div class="colors">
+                                                    <label for="color">Couleur</label>
+                                                    <div class="variant">
+                                                        <form action="">
+                                                            <label for="color">Couleur</label>
                                                             <select name="color" id="color">
-                                                                <option value="---------" disabled >----</option>
+                                                                <option value="---------" >----</option>
                                                                 <option value="rouge">Rouge</option>
                                                                 <option value="vert">Vert</option>
                                                                 <option value="jaune">Jaune</option>
                                                             </select>
-                                                        </div>
-                                                    </div>
 
-                                                    <div class="sizes">
-                                                        <label for="sizes">Taille</label>
-                                                        <div class="variant">
-                                                            <select name="sizes" id="sizes">
+                                                        </form>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sizes">
+                                                    <p>Taille</p>
+                                                    <div class="variant">
+                                                        <form action="">
+                                                            <select name="" id="">
                                                                 <option value="sm">SM</option>
                                                                 <option value="xl">Xl</option>
                                                                 <option value="XXL">XXL</option>
                                                             </select>
-                                                        </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+
+                                                <div class="actions">
+                                                    <div class="qty-control flexitem">
+                                                        <a href="#">
+                                                            <button class="minus circle"> &minus; </button>
+                                                        </a>
+                                                        <input type="number" value="1" min="1">
+                                                        <a href="#">
+                                                            <button class="plus circle"> &plus; </button>
+                                                        </a>
                                                     </div>
 
-                                                    <div class="actions">
-                                                        <div class="qty-control flexitem">
-                                                            <a href="#">
-                                                                <button class="minus circle"> &minus; </button>
-                                                            </a>
-                                                            <input type="number" value="1" min="1">
-                                                            <a href="#">
-                                                                <button class="plus circle"> &plus; </button>
-                                                            </a>
-                                                        </div>
-
-                                                        <div class="button-cart">
-                                                            <button class="primary-button" style="cursor: pointer !important;">
+                                                    <div class="button-cart">
+                                                        <button class="primary-button" style="cursor: pointer !important;">
                                                             Ajouter au panier  
                                                         </button>
-                                                        </div>
                                                     </div>
-                                                </form>
-                                                <!-- <div class="wish-share">
+                                                </div>
+
+                                                <div class="wish-share">
                                                     <ul class="flexitem second-links">
                                                         <li>
                                                             <a href="#">
@@ -536,7 +540,7 @@
                                                             </a>
                                                         </li>
                                                     </ul>
-                                                </div> -->
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
