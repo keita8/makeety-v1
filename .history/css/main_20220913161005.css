@@ -1707,7 +1707,7 @@
     .view-all) {
         margin: 10px 0;
         font-size: 1.25em;
-        /* text-transform: lowercase; */
+        text-transform: lowercase;
         justify-content: end;
     }
     
@@ -1735,16 +1735,11 @@
     }
     
     .products .review-block-body .item {
-        margin: 2.5em 0;
+        margin: 2em 0;
     }
     
-    .products .review-block-body .item:not(:last-child) {
-        margin-top: 1em;
+    .products .review-block-head .item:not(:last-child) {
         border-bottom: 1px solid var(--dark-color);
-    }
-    
-    .products .review-block-body .review-text {
-        margin-bottom: 2em;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

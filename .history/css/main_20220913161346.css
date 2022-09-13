@@ -1707,7 +1707,7 @@
     .view-all) {
         margin: 10px 0;
         font-size: 1.25em;
-        /* text-transform: lowercase; */
+        text-transform: lowercase;
         justify-content: end;
     }
     
@@ -1744,7 +1744,7 @@
     }
     
     .products .review-block-body .review-text {
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

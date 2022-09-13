@@ -1707,7 +1707,7 @@
     .view-all) {
         margin: 10px 0;
         font-size: 1.25em;
-        /* text-transform: lowercase; */
+        text-transform: lowercase;
         justify-content: end;
     }
     
@@ -1743,9 +1743,7 @@
         border-bottom: 1px solid var(--dark-color);
     }
     
-    .products .review-block-body .review-text {
-        margin-bottom: 2em;
-    }
+    .products .review-block-body .review-text:not(:last-child)
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {
