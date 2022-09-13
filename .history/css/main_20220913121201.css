@@ -1572,10 +1572,6 @@
     #sizes option {
         font-size: 20px;
     }
-    
-    #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>form>div.actions>div.button-cart>button {
-        font-size: 1em;
-    }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {

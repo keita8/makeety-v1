@@ -924,7 +924,8 @@
     
     .products .price .normal,
     .products .price .current {
-        margin-top: 1em;
+        margin: 1em;
+        margin-bottom: 1em;
     }
     
     .products .price .current {
@@ -932,7 +933,7 @@
         font-size: 2em;
         font-weight: var(--fw2);
         color: var(--primary-color);
-        /* margin-right: 0.25em; */
+        margin-right: 0.25em;
     }
     
     .products .price .normal {
@@ -1571,10 +1572,6 @@
     #color option,
     #sizes option {
         font-size: 20px;
-    }
-    
-    #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>form>div.actions>div.button-cart>button {
-        font-size: 1em;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
