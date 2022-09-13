@@ -2070,7 +2070,4 @@
             display: block;
         }
         /* // SINGLE ARTICLE FEATURE */
-        .products.one .flexwrap>.row:last-child>.item {
-            padding-left: 2em;
-        }
     }
