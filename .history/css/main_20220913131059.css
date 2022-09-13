@@ -1597,7 +1597,7 @@
         font-size: var(--fw7);
         text-transform: uppercase;
         padding: 1em 1.25em;
-        border-top: 1px solid var(--border-color);
+        border-top: 1px solid --bo
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

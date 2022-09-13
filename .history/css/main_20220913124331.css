@@ -1588,16 +1588,7 @@
     }
     
     .wishe-share a .icon-large {
-        font-size: 25px;
-    }
-    /* // SINGLE PAGE DETAILS  */
-    
-    .products .collapse .has-child>a {
-        position: relative;
-        font-size: var(--fw7);
-        text-transform: uppercase;
-        padding: 1em 1.25em;
-        border-top: 1px solid var(--border-color);
+        font-size: 30px;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

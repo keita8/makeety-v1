@@ -1479,7 +1479,6 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: 2em;
-        margin-left: 0;
     }
     
     .products .qty-control {
@@ -1578,27 +1577,7 @@
         font-size: 1em;
     }
     
-    .wishe-share a {
-        display: flex;
-        align-items: center;
-        text-transform: uppercase;
-        font-weight: var(--fw7);
-        margin: 1em 2em 1em 0;
-        transition: var(--trans-color);
-    }
-    
-    .wishe-share a .icon-large {
-        font-size: 25px;
-    }
-    /* // SINGLE PAGE DETAILS  */
-    
-    .products .collapse .has-child>a {
-        position: relative;
-        font-size: var(--fw7);
-        text-transform: uppercase;
-        padding: 1em 1.25em;
-        border-top: 1px solid var(--border-color);
-    }
+    .wishe-share {}
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {
