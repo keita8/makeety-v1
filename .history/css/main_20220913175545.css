@@ -1799,13 +1799,11 @@
         padding: 1em;
         border: 1px solid var(--border-color);
         outline: none;
-        font-size: 14px;
     }
     
     form label {
         font-weight: var(--fw5);
         margin-bottom: 0.5em;
-        text-transform: uppercase;
     }
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {

@@ -1777,36 +1777,7 @@
     
     .rate-this>input:checked+label:hover,
     .rate-this>input:checked~label:hover,
-    .rate-this>label:hover~input:checked~label,
-    .rate-this>input:checked~label:hover~label {
-        color: #ffed85;
-        cursor: pointer;
-    }
-    
-    .review-form form {
-        margin-top: 2.5em;
-    }
-    
-    form p {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 2em;
-    }
-    
-    form :where(input,
-    textarea) {
-        line-height: 1;
-        padding: 1em;
-        border: 1px solid var(--border-color);
-        outline: none;
-        font-size: 14px;
-    }
-    
-    form label {
-        font-weight: var(--fw5);
-        margin-bottom: 0.5em;
-        text-transform: uppercase;
-    }
+    .rate-this {}
     /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
     /* @media screen and (max-width: 481px) {
         #page>main>div.single-product>div>div>div.breadcrumb {

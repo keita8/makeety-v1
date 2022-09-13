@@ -1799,7 +1799,7 @@
         padding: 1em;
         border: 1px solid var(--border-color);
         outline: none;
-        font-size: 14px;
+        font-size: 1.em;
     }
     
     form label {
