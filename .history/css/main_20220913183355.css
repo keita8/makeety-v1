@@ -1655,9 +1655,7 @@
     /* // CUSTOMER REVIEW */
     
     .review-form button {
-        outline: none;
-        border: none;
-        font-size: 14px;
+        font-size: 1em;
     }
     
     .products .reviews h4 {

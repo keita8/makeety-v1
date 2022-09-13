@@ -1654,13 +1654,7 @@
     }
     /* // CUSTOMER REVIEW */
     
-    .review-form button {
-        outline: none;
-        border: none;
-        font-size: 14px;
-    }
-    
-    .products .reviews h4 {
+    .re .products .reviews h4 {
         font-size: 1.5em;
         color: var(--light-text-color);
         padding-top: 1em;
