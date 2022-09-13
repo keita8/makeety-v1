@@ -1603,8 +1603,8 @@
     }
     
     .products .collapse .content {
-        margin: 2px 0 1.5em 2em;
-        font-size: 18px;
+        margin: 0 0 1.5em 2em;
+        font-size: 20px;
     }
     
     .products .collapse .content li span:first-child {
