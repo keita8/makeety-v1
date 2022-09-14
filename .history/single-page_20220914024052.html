@@ -484,7 +484,7 @@
 
                                                             <!-- <label for="color">Couleur</label> -->
                                                             <select name="color" id="color">
-                                                                <option>-------</option>
+                                                                <option value="---------">----</option>
                                                                 <option value="rouge">Rouge</option>
                                                                 <option value="vert">Vert</option>
                                                                 <option value="jaune">Jaune</option>
@@ -496,7 +496,6 @@
                                                         <label for="sizes">Taille</label>
                                                         <div class="variant">
                                                             <select name="sizes" id="sizes">
-                                                                <option>-------</option>
                                                                 <option value="sm">SM</option>
                                                                 <option value="xl">Xl</option>
                                                                 <option value="XXL">XXL</option>
@@ -507,8 +506,11 @@
                                                     <div class="actions">
                                                         <div class="qty-control flexitem">
                                                             <button class="minus circle"> &minus; </button>
+                                                            </a>
                                                             <input type="number" value="1" min="1">
-                                                            <button class="plus circle"> &plus; </button>
+                                                            <a href="#">
+                                                                <button class="plus circle"> &plus; </button>
+                                                            </a>
                                                         </div>
 
                                                         <div class="button-cart">

@@ -1496,9 +1496,7 @@
     .products .actions {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
-        margin-top: .5em;
-        gap: 1em;
+        margin-top: 2em;
         margin-left: 0;
     }
     

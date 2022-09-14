@@ -1484,10 +1484,6 @@
     }
      */
     
-    #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>div.price>span {
-        font-size: 1.5em;
-    }
-    
     .single-product .sizes .variant form p input:checked+label::before {
         background-color: var(--dark-color);
         opacity: 1;
@@ -1496,14 +1492,12 @@
     .products .actions {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
-        margin-top: .5em;
-        gap: 1em;
+        margin-top: 2em;
         margin-left: 0;
     }
     
     .products .qty-control {
-        /* width: fit-content; */
+        width: fit-content;
         padding: 0.5em;
         border: none;
         margin: 0 2em 2em 0;
@@ -1569,19 +1563,7 @@
         z-index: 1;
     }
     
-    .choices-features select {
-        width: 100%;
-        min-width: 15ch;
-        max-width: 30ch;
-        border: 1px solid var(--dark-color);
-        border-radius: 0.25em;
-        padding: 0.25em 0.5em;
-        font-size: 1.25rem;
-        cursor: pointer;
-        line-height: 1.1;
-        background-color: #fff;
-    }
-    /* #color,
+    #color,
     #sizes {
         padding: 10px 40px;
         margin: 15px;
@@ -1589,7 +1571,7 @@
         outline: none;
         border-radius: 5px;
         border: 1px solid var(--dark-color);
-    } */
+    }
     
     .products :where(.variant,
     .actions) .circle {
