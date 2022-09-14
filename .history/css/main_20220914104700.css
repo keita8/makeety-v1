@@ -32,7 +32,6 @@
         
         html {
             font-size: 1em;
-            color: var(--dark-color);
         }
         
         body {
@@ -50,10 +49,14 @@
         .features .price {
             font-size: 1rem;
         }
+        /*     
+    .features .content .main-links {
+        font-size: 18px;
+    } */
         
         a {
             text-decoration: none;
-            color: #000;
+            color: inherit;
         }
         
         ul {
@@ -218,8 +221,7 @@
         
         .secondary-button:hover {
             background-color: var(--light-bg-color);
-            /* color: var(--secondary-color); */
-            color: var(--dark-color);
+            color: var(--secondary-color);
         }
         
         .light-button {
@@ -487,6 +489,7 @@
             background-color: var(--primary-color);
             border-radius: 7px 7px 0 0;
             color: var(--white-color);
+            /* margin-bottom: -2.15em; */
         }
         
         .dpt-cat .dpt-head .mini-text {
@@ -750,7 +753,9 @@
             flex-wrap: wrap;
             position: relative;
             font-size: 1.5em;
+            /* margin-bottom: 10px; */
             font-weight: var(--fw2);
+            /* margin-bottom: 30px; */
         }
         
         .sectop h2 span:not(.circle) {
@@ -820,6 +825,7 @@
             border-radius: var(--percent50);
             line-height: 1;
             background-color: var(--light-bg-color);
+            /* opacity: .5; */
             transition: var(--trans-background-color), opacity .3s;
         }
         
@@ -928,9 +934,11 @@
         }
         
         .products .price .current {
+            /* font-size: calc(1em + 1vw); */
             font-size: 1.2em;
             font-weight: var(--fw2);
             color: var(--primary-color);
+            /* margin-right: 0.25em; */
         }
         
         .products .price .normal {
@@ -1082,6 +1090,9 @@
         .banner h3 span {
             font-size: 80%;
         }
+        /* #page>header>div.header-nav>div>div>div.right>ul>li:nth-child(2)>a>div {
+        margin-right: 20px;
+    } */
         /* --------------------------------------------------FOOTER-------------------------------------- */
         
         .widgets {
@@ -1295,6 +1306,9 @@
             overflow: hidden;
             margin: 0 2em 2em 0;
         }
+        /* .products.one .small-image {
+        margin-top: 1em;
+    } */
         
         .products.one .big-image {
             position: relative;
@@ -1347,6 +1361,7 @@
         }
         
         .products.one .available {
+            /* font-size: var(--font-small); */
             font-size: 18px;
             font-weight: var(--fw5);
             padding: 0.5em;
@@ -1757,6 +1772,15 @@
             font-size: 1em;
         }
         /*--------------------------------------------RESPONSIVENESS----------------------------------------*/
+        /* @media screen and (max-width: 481px) {
+        #page>main>div.single-product>div>div>div.breadcrumb {
+            display: none;
+        }
+        .products.one .image-show {
+            width: 100%;
+            height: auto;
+        }
+    } */
         
         @media screen and (min-width: 481px) {
             .products.main .item {
@@ -1767,17 +1791,21 @@
             }
             .products.one .big-image {
                 height: 600px;
+                /* margin-bottom: 2em; */
             }
             .products.one .image-show {
                 height: 600px;
             }
             .products.one .thumbnail-show {
+                /* width: 140px; */
                 height: 160px;
             }
             .products .price .current {
+                /* font-size: calc(1em + 1vw); */
                 font-size: 1.2em;
                 font-weight: var(--fw2);
                 color: var(--primary-color);
+                /* margin-right: 0.25em; */
             }
         }
         
@@ -1791,6 +1819,12 @@
             #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>form>div.colors>label {
                 margin-bottom: 12px;
             }
+            /* .products.one .big-image {
+            margin-bottom: 2em;
+        }
+        .products.one .image-show {
+            height: 650px;
+        } */
         }
         
         @media screen and (min-width: 768px) {
@@ -1815,9 +1849,11 @@
                 top: 2em;
             }
             .products .price .current {
+                /* font-size: calc(1em + 1vw); */
                 font-size: 1.2em;
                 font-weight: var(--fw2);
                 color: var(--primary-color);
+                /* margin-right: 0.25em; */
             }
         }
         
@@ -2018,8 +2054,10 @@
                 padding-left: 2em;
             }
             .products .price .current {
+                /* font-size: calc(1em + 1vw); */
                 font-size: 1.2em;
                 font-weight: var(--fw2);
                 color: var(--primary-color);
+                /* margin-right: 0.25em; */
             }
         }

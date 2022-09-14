@@ -32,7 +32,6 @@
         
         html {
             font-size: 1em;
-            color: var(--dark-color);
         }
         
         body {
@@ -50,10 +49,14 @@
         .features .price {
             font-size: 1rem;
         }
+        /*     
+    .features .content .main-links {
+        font-size: 18px;
+    } */
         
         a {
             text-decoration: none;
-            color: #000;
+            color: inherit;
         }
         
         ul {
@@ -218,8 +221,7 @@
         
         .secondary-button:hover {
             background-color: var(--light-bg-color);
-            /* color: var(--secondary-color); */
-            color: var(--dark-color);
+            color: var(--secondary-color);
         }
         
         .light-button {
@@ -1767,17 +1769,20 @@
             }
             .products.one .big-image {
                 height: 600px;
+                /* margin-bottom: 2em; */
             }
             .products.one .image-show {
                 height: 600px;
             }
             .products.one .thumbnail-show {
+                /* width: 140px; */
                 height: 160px;
             }
             .products .price .current {
                 font-size: 1.2em;
                 font-weight: var(--fw2);
                 color: var(--primary-color);
+                /* margin-right: 0.25em; */
             }
         }
         
@@ -1791,6 +1796,12 @@
             #page>main>div.single-product>div>div>div.column>div>div>div:nth-child(2)>div>div>form>div.colors>label {
                 margin-bottom: 12px;
             }
+            /* .products.one .big-image {
+            margin-bottom: 2em;
+        }
+        .products.one .image-show {
+            height: 650px;
+        } */
         }
         
         @media screen and (min-width: 768px) {
@@ -1815,9 +1826,11 @@
                 top: 2em;
             }
             .products .price .current {
+                /* font-size: calc(1em + 1vw); */
                 font-size: 1.2em;
                 font-weight: var(--fw2);
                 color: var(--primary-color);
+                /* margin-right: 0.25em; */
             }
         }
         
@@ -2018,8 +2031,10 @@
                 padding-left: 2em;
             }
             .products .price .current {
+                /* font-size: calc(1em + 1vw); */
                 font-size: 1.2em;
                 font-weight: var(--fw2);
                 color: var(--primary-color);
+                /* margin-right: 0.25em; */
             }
         }

@@ -32,7 +32,6 @@
         
         html {
             font-size: 1em;
-            color: var(--dark-color);
         }
         
         body {
@@ -218,8 +217,7 @@
         
         .secondary-button:hover {
             background-color: var(--light-bg-color);
-            /* color: var(--secondary-color); */
-            color: var(--dark-color);
+            color: var(--secondary-color);
         }
         
         .light-button {

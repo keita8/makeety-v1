@@ -219,7 +219,6 @@
         .secondary-button:hover {
             background-color: var(--light-bg-color);
             /* color: var(--secondary-color); */
-            color: var(--dark-color);
         }
         
         .light-button {
