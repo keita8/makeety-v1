@@ -2244,10 +2244,7 @@ input) {
         top: 0;
         right: 0;
     }
-    .checkout .item.right h2 {
-        font-size: 1.2em;
-        text-align: center;
-    }
+    .checkout .item.right h2
 }
 
 @media screen and (max-width: 481px) {

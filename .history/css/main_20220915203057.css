@@ -2245,8 +2245,7 @@ input) {
         right: 0;
     }
     .checkout .item.right h2 {
-        font-size: 1.2em;
-        text-align: center;
+        font-size: 1em;
     }
 }
 
