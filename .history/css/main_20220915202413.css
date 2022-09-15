@@ -2023,7 +2023,7 @@ textarea) {
 
 .checkout .left label {
     font-size: var(--font-small);
-    /* text-transform: capitalize; */
+    text-transform: capitalize;
     position: relative;
     width: fit-content;
 }
