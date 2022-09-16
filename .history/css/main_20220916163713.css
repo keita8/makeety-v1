@@ -2672,9 +2672,4 @@ input) {
     #page>main>div.container>div>div {
         max-width: 500px;
     }
-    .login form p.forgot {
-        display: flex;
-        justify-content: center;
-        align-items: end;
-    }
 }
