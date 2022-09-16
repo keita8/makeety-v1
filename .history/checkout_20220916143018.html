@@ -14,9 +14,7 @@
 
 </head>
 
-
 <body>
-
     <div id="page" class="site page-single">
 
         <!-- ASIDE -->
@@ -357,72 +355,138 @@
 
         <!-- MAIN SECTION -->
         <main>
-            <div class="container">
-                <div class="wrapper login-wrapper">
-                    <div class="login">
-                        <div class="content-heading">
-                            <div class="y-style">
-                                <div class="logo"><a href=""><span></span></a></div>
-                                <div class="welcome">
-                                    <h2 class="loging">Se connecter</h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="content-form">
-                            <div class="y-style">
-                                <form action="#">
+            <div class="single-checkout">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="checkout flexwrap">
+                            <div class="item left styled">
+                                <h1>Adresse de livraison</h1>
+                                <form action="">
                                     <p>
-                                        <label for="email">Adresse email</label>
-                                        <input type="email" name="email" id="email" required placeholder="Votre adresse email">
+                                        <label for="email">Adresse email<span></span></label>
+                                        <input type="email" name="email" id="email" placeholder="Votre adresse email">
                                     </p>
                                     <p>
-                                        <label for="password">Mot de passe</label>
-                                        <input type="password" name="password" id="password" required placeholder="Votre mot de passe">
+                                        <label for="phone">Téléphone<span></span></label>
+                                        <input type="number" name="phone" id="phone" placeholder="Numéro de téléphone">
                                     </p>
-                                    <!-- <p class="check">
-                                        <input type="checkbox" name="checkbox" id="remember">
-                                        <label for="remember">Se souvenir de moi</label>
-                                    </p> -->
-
-                                    <p class="forgot">
-                                        <a href="#">Mot de passe oublié ?</a>
-                                    </p>
-
                                     <p>
-                                        <button type="submit" class="primary-button">Se connecter</button>
+                                        <label for="lastname">Nom<span></span></label>
+                                        <input type="text" name="lastname" id="lastname" placeholder="Votre nom">
                                     </p>
+                                    <p>
+                                        <label for="firstname">Prénom<span></span></label>
+                                        <input type="text" name="firstname" id="firstname" placeholder="Votre prénom">
+                                    </p>
+                                    <p>
+                                        <label for="country">Pays de résidence<span></span></label>
+                                        <input type="text" name="country" id="country" placeholder="Votre pays de résidence">
+                                        <!-- <select name="country" id="country">
+                                            <option value="gn">Guinée</option>
+                                            <option value="fr">France</option>
+                                            <option value="ru">Russie</option>
+                                            <option value="usa">Etats-Unis</option>
+                                        </select> -->
+                                    </p>
+                                    <p>
+                                        <label for="state">Etat / Province<span></span></label>
+                                        <input type="text" name="state" id="state" placeholder="Etat / Province">
+                                    </p>
+                                    <p>
+                                        <label for="city">Ville<span></span></label>
+                                        <input type="text" name="city" id="city" placeholder="Ville">
+                                    </p>
+                                    <p>
+                                        <label for="zip">Code postale<span></span></label>
+                                        <input type="number" name="zip" id="zip" placeholder="Code postale">
+                                    </p>
+                                    <p>
+                                        <label for="msg">Laissez un message (facultatif)</label>
+                                        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Laissez un message"></textarea>
+                                    </p>
+
+                                    <div class="primary-checkout ">
+                                        <button type="submit" class="secondary-button" style="border: none; outline: none; cursor: pointer !important;">Procéder au payement</button>
+                                    </div>
                                 </form>
+                            </div>
 
-                                <!-- <div class="social">
-                                    <p>Ou</p>
-                                    <ul>
-                                        <li>
-                                            <a href="" class="google">
-                                                <ion-icon name="logo-google"></ion-icon>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" class="facebook">
-                                                <ion-icon name="logo-facebook"></ion-icon>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href=""></a>
-                                        </li>
-                                    </ul>
-                                </div> -->
+                            <div class="item right">
+                                <h2>R&eacute;sumé de votre commande</h2>
+                                <div class="summary-order is_sticky">
+                                    <div class="summary-totals">
+                                        <ul>
+                                            <li>
+                                                <span>Subtotal</span>
+                                                <span>100 000.00 GNF</span>
+                                            </li>
+                                            <li>
+                                                <span>Discount</span>
+                                                <span>50 000.00 GNF</span>
+                                            </li>
+                                            <li>
+                                                <span>Frais livraison</span>
+                                                <span>10 000.00 GNF</span>
+                                            </li>
+                                            <li>
+                                                <span class="ttc">TOTAL</span>
+                                                <strong>100 000.00 GNF</strong>
+                                            </li>
+                                        </ul>
+                                    </div>
 
-                                <div class="afterform">
-                                    <p>Vous n'avez pas encore de compte ?</p>
-                                    <a href="#" class="t-signup">S'inscrire</a>
+                                    <div class="products mini">
+                                        <div class="item">
+                                            <div class="thumbnail object-cover">
+                                                <img src="./img/products/shoe3.jpg" alt="">
+                                                <div class="item-content">
+                                                    <p>
+                                                        Men shoes with arch support insoles new balance
+                                                    </p>
+                                                    <span class="price">
+                                                        <span>290 000.00 GNF</span>&nbsp;
+                                                    <span>(x2)</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="thumbnail object-cover">
+                                                <img src="./img/products/shoe2.jpg" alt="">
+                                                <div class="item-content">
+                                                    <p>
+                                                        Men shoes with arch support insoles new balance
+                                                    </p>
+                                                    <span class="price">
+                                                        <span>290 000.00 GNF</span>&nbsp;
+                                                    <span>(x2)</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="thumbnail object-cover">
+                                                <img src="./img/products/shoe4.jpg" alt="">
+                                                <div class="item-content">
+                                                    <p>
+                                                        Men shoes with arch support insoles new balance
+                                                    </p>
+                                                    <span class="price">
+                                                        <span>290 000.00 GNF</span> &nbsp;
+                                                    <span>(x2)</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
 
             <!-- BANNIERE SECTION -->
             <div class="banners ">
@@ -725,7 +789,6 @@
         </footer>
         <!-- FOOTER SECTION -->
 
-
         <!-- MOBILE MENU -->
         <div class="menu-bottom desktop-hide ">
             <div class="container ">
@@ -741,7 +804,7 @@
                             <li>
                                 <a href="./login.html">
                                     <i class="ri-user-6-line "></i>
-                                    <span>Connexion</span>
+                                    <span>Conne</span>
                                 </a>
                             </li>
                             <li>
@@ -794,6 +857,7 @@
         <div class="overlay "></div>
 
     </div>
+
 
 
 
