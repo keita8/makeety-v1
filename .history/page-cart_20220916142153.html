@@ -8,16 +8,14 @@
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Market</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
 
 </head>
 
-
 <body>
-
-    <div id="page" class="site page-single">
+    <div id="page" class="site page-single page-cart">
 
         <!-- ASIDE -->
         <aside class="site-off desktop-hide">
@@ -211,7 +209,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="./page-cart.html" class="iscart">
+                                    <a href="#" class="iscart">
                                         <div class="icon-large">
                                             <i class="ri-shopping-cart-line" title="Panier"></i>
                                             <div class="fly-item"><span class="item-number">3</span></div>
@@ -357,221 +355,308 @@
 
         <!-- MAIN SECTION -->
         <main>
-            <div class="container">
-                <div class="wrapper login-wrapper">
-                    <div class="login">
-                        <div class="content-heading">
-                            <div class="y-style">
-                                <div class="logo"><a href=""><span></span></a></div>
-                                <div class="welcome">
-                                    <h2 class="loging">Se connecter</h2>
-                                    <p></p>
-                                </div>
-                            </div>
+
+
+            <!-- PANIER D'ARTICLE -->
+            <div class="single-cart">
+                <div class="container">
+                    <div class="wrapper">
+
+                        <!-- <div class="breadcumb">
+                            <ul class="flexitem">
+                                <li>
+                                    <a href="./index.html">Accueil</a>
+                                </li>
+                                <li>
+                                    Panier
+                                </li>
+                            </ul>
                         </div>
 
-                        <div class="content-form">
-                            <div class="y-style">
-                                <form action="#">
-                                    <p>
-                                        <label for="email">Adresse email</label>
-                                        <input type="email" name="email" id="email" required placeholder="Votre adresse email">
-                                    </p>
-                                    <p>
-                                        <label for="password">Mot de passe</label>
-                                        <input type="password" name="password" id="password" required placeholder="Votre mot de passe">
-                                    </p>
-                                    <!-- <p class="check">
-                                        <input type="checkbox" name="checkbox" id="remember">
-                                        <label for="remember">Se souvenir de moi</label>
-                                    </p> -->
+                        <div class="page-title">
+                            <h1>Votre panier</h1>
+                        </div> -->
 
-                                    <p class="forgot">
-                                        <a href="#">Mot de passe oublié ?</a>
-                                    </p>
+                        <div class="products one cart">
+                            <div class="flexwrap">
+                                <form action="" class="form-cart">
+                                    <div class="item">
+                                        <table id="cart-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Article</th>
+                                                    <th>Quantité</th>
+                                                    <th>Prix</th>
+                                                    <!-- <th>Sous total</th> -->
+                                                    <th>Retirer</th>
+                                                </tr>
+                                            </thead>
 
-                                    <p>
-                                        <button type="submit" class="primary-button">Se connecter</button>
-                                    </p>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="flexitem">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="./single-page.html">
+                                                                <img src="./img/products/shoe3.jpg" alt="">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="content">
+                                                            <strong>
+                                                                <a href="./single-page.html">Nike Sneaker Edition</a>
+                                                                <p>Couleur: Marron</p>
+                                                                <p>Taille : SM</p>
+                                                            </strong>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>
+                                                        <div class="qty-control flexitem">
+                                                            <button class="minus">&minus;</button>
+                                                            <input type="number" name="qty" id="qty" value="1" min="1">
+                                                            <button class="plus">&plus;</button>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>290 000.00 GNF</td>
+
+                                                    <!-- <td>300 000.00 GNF</td> -->
+                                                    <td>
+                                                        <a href="#" class="item-remove">
+                                                            <i class="ri-close-line"></i>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="flexitem">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="./single-page.html">
+                                                                <img src="./img/products/shoe2.jpg " alt=" ">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="content ">
+                                                            <strong>
+                                                                <a href="./single-page.html">Nike Sneaker Edition</a>
+                                                                <p>Couleur: Marron</p>
+                                                                <p>Taille : SM</p>
+                                                            </strong>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>
+                                                        <div class="qty-control flexitem ">
+                                                            <button class="minus ">&minus;</button>
+                                                            <input type="number " name="qty " id="qty " value="1 " min="1 ">
+                                                            <button class="plus ">&plus;</button>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>290 000.00 GNF</td>
+
+                                                    <!-- <td>300 000.00 GNF</td> -->
+                                                    <td>
+                                                        <a href="# " class="item-remove ">
+                                                            <i class="ri-close-line "></i>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="flexitem ">
+                                                        <div class="thumbnail object-cover ">
+                                                            <a href="./single-page.html">
+                                                                <img src="./img/products/shoe4.jpg " alt=" ">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="content ">
+                                                            <strong>
+                                                                <a href="./single-page.html">Nike Sneaker Edition</a>
+                                                                <p>Couleur: Marron</p>
+                                                                <p>Taille : SM</p>
+                                                            </strong>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>
+                                                        <div class="qty-control flexitem ">
+                                                            <button class="minus ">&minus;</button>
+                                                            <input type="number " name="qty " id="qty " value="1 " min="1 ">
+                                                            <button class="plus ">&plus;</button>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>290 000.00 GNF</td>
+
+                                                    <!-- <td>300 000.00 GNF</td> -->
+                                                    <td>
+                                                        <a href="# " class="item-remove ">
+                                                            <i class="ri-close-line "></i>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <!-- <tr>
+                                                    <td class="flexitem ">
+                                                        <div class="thumbnail object-cover ">
+                                                            <a href="# ">
+                                                                <img src="./img/products/shoe2.jpg " alt=" ">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="content ">
+                                                            <strong>
+                                                                <a href="# ">Nike Sneaker Edition</a>
+                                                                <p>Couleur: Marron</p>
+                                                                <p>Taille : SM</p>
+                                                            </strong>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>290 000.00 GNF</td>
+
+                                                    <td>
+                                                        <div class="qty-control flexitem ">
+                                                            <button class="minus ">&minus;</button>
+                                                            <input type="number " name="qty " id="qty " value="1 " min="1 ">
+                                                            <button class="plus ">&plus;</button>
+                                                        </div>
+                                                    </td>
+                                                    <td>300 000.00 GNF</td>
+                                                    <td>
+                                                        <a href="# " class="item-remove ">
+                                                            <i class="ri-close-line "></i>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="flexitem ">
+                                                        <div class="thumbnail object-cover ">
+                                                            <a href="# ">
+                                                                <img src="./img/products/shoe4.jpg " alt=" ">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="content ">
+                                                            <strong>
+                                                                <a href="# ">Nike Sneaker Edition</a>
+                                                                <p>Couleur: Marron</p>
+                                                                <p>Taille : SM</p>
+                                                            </strong>
+                                                        </div>
+                                                    </td>
+
+                                                    <td>290 000.00 GNF</td>
+
+                                                    <td>
+                                                        <div class="qty-control flexitem ">
+                                                            <button class="minus ">&minus;</button>
+                                                            <input type="number " name="qty " id="qty " value="1 " min="1 ">
+                                                            <button class="plus ">&plus;</button>
+                                                        </div>
+                                                    </td>
+                                                    <td>300 000.00 GNF</td>
+                                                    <td>
+                                                        <a href="# " class="item-remove ">
+                                                            <i class="ri-close-line "></i>
+                                                        </a>
+                                                    </td>
+                                                </tr> -->
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </form>
-
-                                <!-- <div class="social">
-                                    <p>Ou</p>
-                                    <ul>
-                                        <li>
-                                            <a href="" class="google">
-                                                <ion-icon name="logo-google"></ion-icon>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" class="facebook">
-                                                <ion-icon name="logo-facebook"></ion-icon>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href=""></a>
-                                        </li>
-                                    </ul>
-                                </div> -->
-
-                                <div class="afterform">
-                                    <p>Vous n'avez pas encore de compte ?</p>
-                                    <a href="#" class="t-signup">S'inscrire</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- BANNIERE SECTION -->
-            <div class="banners ">
-                <div class="container ">
-                    <div class="wrapper ">
-                        <div class="column ">
-                            <!-- BANNER SIDE -->
-                            <div class="banner flexwrap ">
-                                <div class="row ">
-                                    <div class="item ">
-                                        <div class="image ">
-                                            <img src="./img/banner/banner1.jpg " alt=" ">
+                                <div class="cart-summary styled">
+                                    <div class="item">
+                                        <div class="coupon">
+                                            <input type="text" name="coupon " id="coupon" placeholder="Code promo ">
+                                            <button type="submit">Appliquer</button>
                                         </div>
 
-                                        <div class="text-content flexcol ">
-                                            <h4>Promotion</h4>
-                                            <h3><span>Ne manquez pas l'occasion de vous procurer</span> <br> un mobilier de salon </h3>
-                                            <a href="./single-page.html " class="primary-button ">Achetez maintenant</a>
+                                        <div class="shipping-rate collapse">
+                                            <!-- <div class="has-childe expand ">
+                                                <a href="# " class="icon-small ">Livraison & Taxe</a>
+                                                <div class="content ">
+                                                    <div class="countries ">
+                                                        <form action="# ">
+                                                            <label for="country ">Pays</label>
+                                                            <select name="country " id="country ">
+                                                            <option value="GN ">Guinée</option>
+                                                            <option value="UK ">Royaume Unis</option>
+                                                            <option value="CN ">Chine</option>
+                                                            <option value="RU ">Russie</option>
+                                                        </select>
+                                                        </form>
+                                                    </div>
+                                                    <div class="countries ">
+                                                        <form action="# ">
+                                                            <label for="state ">Ville</label>
+                                                            <select name="state " id="state ">
+                                                            <option value="GN ">Conakry</option>
+                                                            <option value="UK ">Londres</option>
+                                                            <option value="CN ">Pékin</option>
+                                                            <option value="RU ">Moscou</option>
+                                                        </select>
+                                                        </form>
+                                                    </div>
+
+                                                    <div class="postal-code ">
+                                                        <form action=" ">
+                                                            <label for="postal ">Code postal</label>
+                                                            <input type="number " name="postal " id="postal " placeholder="Votre code postal ">
+                                                        </form>
+                                                    </div>
+
+                                                    <div class="rate-options variant ">
+                                                        <form action=" ">
+                                                            <p>
+                                                                <span>Flat: 0.00 GNF</span>
+                                                                <input type="radio " name="flat " id="flat " checked>
+                                                                <label for="flat " class="circle "></label>
+                                                            </p>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div> -->
                                         </div>
+                                        <div class="cart-total "></div>
+                                        <div class="cart-total ">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>TVA</th>
+                                                        <td>18%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Réduction</th>
+                                                        <td>-100 000.00 GNF</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Livraison <span class="mini-text "></span> </th>
+                                                        <td>50 000.00 GNF</td>
+                                                    </tr>
+                                                    <tr class="grand-total ">
+                                                        <th>TOTAL</th>
+                                                        <td>
+                                                            <strong>
+                                                                36 759 000.00 GNF
+                                                            </strong>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
 
-                                        <a href=" " class="over-link "></a>
-                                    </div>
-                                </div>
-                                <div class="row ">
-                                    <div class="item ">
-                                        <div class="image ">
-                                            <img src="./img/banner/banner2.jpg " alt=" ">
+                                            <a href="./checkout.html " class="secondary-button">Commander</a>
                                         </div>
-
-                                        <div class="text-content flexcol ">
-                                            <h4>Promotion</h4>
-                                            <h3><span>Offre hebdomadaire </span> <br>profitez-en</h3>
-                                            <a href="./single-page.html " class="primary-button ">Achetez maintenant</a>
-                                        </div>
-
-                                        <a href=" " class="over-link "></a>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!-- CATEGORIES -->
-                            <div class="product-categories flexwrap ">
-                                <div class="row ">
-                                    <div class="item ">
-                                        <div class="image ">
-                                            <img src="./img/banner/procat1.jpg " alt=" ">
-                                        </div>
-                                        <div class="content mini-links ">
-                                            <h4>Beauté</h4>
-                                            <ul class="flexcol ">
-                                                <li>
-                                                    <a href=" ">Make Up</a>
-                                                </li>
-                                                <li>
-                                                    <a href=" ">Fond de teint</a>
-                                                </li>
-                                                <li>
-                                                    <a href=" ">Gommage</a>
-                                                </li>
-                                                <li>
-                                                    <a href=" ">Gel</a>
-                                                </li>
-                                            </ul>
-
-
-
-                                            <div class="second-links ">
-                                                <a href=" " class="view-all ">
-                                                Tout voir
-                                                <i class="ri-arrow-right-line "></i>
-                                            </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="row ">
-                                    <div class="item ">
-                                        <div class="image ">
-                                            <img src="./img/banner/procat3.jpg " alt=" ">
-                                        </div>
-                                        <div class="content mini-links ">
-                                            <h4>Jardinage</h4>
-                                            <ul class="flexcol ">
-                                                <li>
-                                                    <a href=" ">Make Up</a>
-                                                </li>
-                                                <li>
-                                                    <a href=" ">Fond de teint</a>
-                                                </li>
-                                                <li>
-                                                    <a href=" ">Gommage</a>
-                                                </li>
-                                                <li>
-                                                    <a href=" ">Gel</a>
-                                                </li>
-                                            </ul>
-
-                                            <div class="second-links ">
-                                                <a href=" " class="view-all ">
-                                                    Tout voir
-                                                    <i class="ri-arrow-right-line "></i>
-                                                </a>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                                <div class="row ">
-                                    <div class="item ">
-                                        <div class="image ">
-                                            <img src="./img/banner/procat2.jpg " alt=" ">
-                                        </div>
-                                        <div class="content mini-links ">
-                                            <h4>Electronique</h4>
-                                            <ul class="flexcol ">
-                                                <li>
-                                                    <a href=" ">Iphone 13 pro max</a>
-                                                </li>
-                                                <li>
-                                                    <a href=" ">Airpods</a>
-                                                </li>
-                                                <li>
-                                                    <a href=" ">Ipad air</a>
-                                                </li>
-                                                <li>
-                                                    <a href=" ">Macbook Air M1</a>
-                                                </li>
-                                            </ul>
-
-
-                                            <div class="second-links ">
-                                                <a href=" " class="view-all ">
-                                                Tout voir
-                                                <i class="ri-arrow-right-line "></i>
-                                            </a>
-                                            </div>
-                                        </div>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>
-            <!-- FIN BANNIERE SECTION -->
+            <!-- FIN PANIER SECTION -->
 
 
         </main>
@@ -701,18 +786,18 @@
 
             <hr>
             <!-- FOOTER INFO -->
-            <div class="footer-info ">
-                <div class="container ">
-                    <div class="wrapper ">
-                        <div class="flexcol " style="display: none; ">
-                            <div class="logo "><a href="./index.html">Makeety<span class="circle "></span></a></div>
+            <div class="footer-info">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="flexcol" style="display: none; ">
+                            <div class="logo"><a href="./index.html">Makeety<span class="circle"></span></a></div>
 
-                            <div class="socials ">
-                                <ul class="flexitem ">
-                                    <li><i class="ri-twitter-line "></i></li>
-                                    <li><i class="ri-facebook-line "></i></li>
-                                    <li><i class="ri-instagram-line "></i></li>
-                                    <li><i class="ri-youtube-line "></i></li>
+                            <div class="socials">
+                                <ul class="flexitem">
+                                    <li><i class="ri-twitter-line"></i></li>
+                                    <li><i class="ri-facebook-line"></i></li>
+                                    <li><i class="ri-instagram-line"></i></li>
+                                    <li><i class="ri-youtube-line"></i></li>
                                 </ul>
                             </div>
                         </div>
@@ -741,7 +826,7 @@
                             <li>
                                 <a href="./login.html">
                                     <i class="ri-user-6-line "></i>
-                                    <span>Se Connecter</span>
+                                    <span>Connexion</span>
                                 </a>
                             </li>
                             <li>
@@ -797,9 +882,21 @@
 
 
 
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js "></script>
     <script src="./js/main.js "></script>
+</body>
+
+</html>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js "></script>
+<script src="./js/main.js "></script>
 </body>
 
 </html>
