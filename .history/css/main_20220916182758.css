@@ -93,12 +93,8 @@ a ion-icon:is(:hover,
     color: #ff6b6b;
 }
 
-ion-icon {
-    --ionicon-stroke-width: 16px;
-}
-
-a ion-icon:active {
-    background-color: var(--primary-color);
+a ion-icon:visited {
+    background-color: --
 }
 
 input::placeholder {

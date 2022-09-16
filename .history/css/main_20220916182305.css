@@ -88,20 +88,7 @@ ion-icon {
     padding-bottom: 8px;
 }
 
-a ion-icon:is(:hover,
- :focus) {
-    color: #ff6b6b;
-}
-
-ion-icon {
-    --ionicon-stroke-width: 16px;
-}
-
-a ion-icon:active {
-    background-color: var(--primary-color);
-}
-
-input::placeholder {
+ion-icon:visited input::placeholder {
     font: inherit;
 }
 

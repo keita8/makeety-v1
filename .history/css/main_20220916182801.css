@@ -93,11 +93,7 @@ a ion-icon:is(:hover,
     color: #ff6b6b;
 }
 
-ion-icon {
-    --ionicon-stroke-width: 16px;
-}
-
-a ion-icon:active {
+a ion-icon:visited {
     background-color: var(--primary-color);
 }
 
