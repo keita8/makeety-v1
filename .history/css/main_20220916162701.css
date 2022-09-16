@@ -2108,8 +2108,7 @@ select) {
 
 .login form p.forgot {
     display: flex;
-    justify-content: center;
-    align-items: end;
+    justify-content: space-around;
 }
 
 .login-wrapper>div {

@@ -2106,13 +2106,7 @@ select) {
     max-width: 500px;
 }
 
-.login form p.forgot {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
-
-.login-wrapper>div {
+.login form p. f.login-wrapper>div {
     display: flex;
     flex-direction: column;
     width: 100%;
