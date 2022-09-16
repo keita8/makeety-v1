@@ -178,12 +178,12 @@ h2 {
     display: none;
 }
 
-:where(.off-canvas,
+ :where(.off-canvas,
 header) li>a {
     display: flex;
     position: relative;
     line-height: inherit;
-    /* transition: var(--trans-color); */
+    transition: var(--trans-color);
 }
 
 .object-cover img {
@@ -2309,7 +2309,7 @@ input) {
     display: block;
     text-align: center;
     margin-top: 2em;
-    /* font-size: 1em; */
+    font-size: 1em;
 }
 
 
