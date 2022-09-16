@@ -84,8 +84,7 @@ table {
 }
 
 ion-icon {
-    font-size: 1.5em;
-    padding-bottom: 8px;
+    font-size: 64px;
 }
 
 input::placeholder {

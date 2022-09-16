@@ -50,7 +50,7 @@
                         <div class="right">
                             <ul class="flexitem main-links">
                                 <li>
-                                    <a href="./login.html">
+                                    <a href="#">
                                         Se connecter
                                         <!-- <i class="ri-user-line" title="Se connecter"></i> -->
                                     </a>
@@ -363,7 +363,7 @@
                         <div class="breadcrumb">
                             <ul class="flexitem">
                                 <li>
-                                    <a href="./index.html">Accueil</a>
+                                    <a href="">Accueil</a>
                                 </li>
                                 <li>
                                     <a href="">Catégorie</a>
@@ -425,6 +425,16 @@
                                                         <img src="./img/products/shoe4.jpg" alt="">
                                                     </li>
                                                 </ul>
+                                                <!-- <ul class="small-image-wrapper">
+                                                    <li class="thumbnail-show">
+                                                        <img src="./img/products/shoe1.jpg" alt="">
+                                                    </li>
+                                                </ul>
+                                                <ul class="small-image-wrapper">
+                                                    <li class="thumbnail-show">
+                                                        <img src="./img/products/shoe1.jpg" alt="">
+                                                    </li>
+                                                </ul> -->
                                             </div>
 
 
@@ -432,16 +442,16 @@
                                     </div>
                                     <div class="row">
                                         <div class="item">
-                                            <h1>Men shoes with arch support insoles new balance</h1>
+                                            <h1>Men shoes with arch support insoles</h1>
                                             <div class="content">
                                                 <div class="rating single-page-rating">
 
                                                     <div class="stars">
-                                                        <ion-icon name="star-sharp"></ion-icon>
-                                                        <ion-icon name="star-sharp"></ion-icon>
-                                                        <ion-icon name="star-sharp"></ion-icon>
-                                                        <ion-icon name="star-sharp"></ion-icon>
-                                                        <ion-icon name="star-half-sharp"></ion-icon>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-half-fill"></i>
                                                     </div>
                                                     <div class="mini-text">
                                                         <a class="mini-text">(2.51)</a>
@@ -488,7 +498,7 @@
                                                             <select name="sizes" id="sizes">
                                                                 <option>-------</option>
                                                                 <option value="sm">SM</option>
-                                                                <option value="xl">M</option>
+                                                                <option value="xl">Xl</option>
                                                                 <option value="XXL">XXL</option>
                                                             </select>
                                                         </div>
@@ -497,16 +507,14 @@
                                                     <div class="actions">
                                                         <div class="qty-control flexitem">
                                                             <button class="minus circle"> &minus; </button>
-                                                            <input type="text" value="1" min="1">
+                                                            <input type="number" value="1" min="1">
                                                             <button class="plus circle"> &plus; </button>
                                                         </div>
 
                                                         <div class="button-cart">
-                                                            <a href="./page-cart.html" class="primary-button" style="cursor: pointer !important;">
-                                                                <!-- <button class="primary-button" style="cursor: pointer !important;"> -->
-                                                                Ajouter au panier
-                                                                <!-- </button> -->
-                                                            </a>
+                                                            <button class="primary-button" style="cursor: pointer !important;">
+                                                            Ajouter au panier
+                                                        </button>
                                                         </div>
                                                     </div>
                                                 </form>
@@ -701,26 +709,25 @@
                                                                             </div>
                                                                         </div>
                                                                         <!-- FORMULAIRE D'AVIS -->
-                                                                        <form action="" method="POST" novalidate id="review-form">
-                                                                            <div id="review-rorm" class="review-form">
-                                                                                <h4>Votre avis</h4>
-                                                                                <div class="rating">
-                                                                                    <p>Êtes-vous satisfait(e) de cet article?</p>
-                                                                                    <div class="rate-this">
-                                                                                        <input type="radio" name="rating" id="star5">
-                                                                                        <label for="star5"><i class="ri-star-fill"></i></label>
-                                                                                        <input type="radio" name="rating" id="star4">
-                                                                                        <label for="star4"><i class="ri-star-fill"></i></label>
-                                                                                        <input type="radio" name="rating" id="star3">
-                                                                                        <label for="star3"><i class="ri-star-fill"></i></label>
-                                                                                        <input type="radio" name="rating" id="star2">
-                                                                                        <label for="star2"><i class="ri-star-fill"></i></label>
-                                                                                        <input type="radio" name="rating" id="star1">
-                                                                                        <label for="star1"><i class="ri-star-fill"></i></label>
-                                                                                    </div>
+                                                                        <div id="review-rorm" class="review-form">
+                                                                            <h4>Votre avis</h4>
+                                                                            <div class="rating">
+                                                                                <p>Êtes-vous satisfait(e) de cet article?</p>
+                                                                                <div class="rate-this">
+                                                                                    <input type="radio" name="rating" id="star5">
+                                                                                    <label for="star5"><i class="ri-star-fill"></i></label>
+                                                                                    <input type="radio" name="rating" id="star4">
+                                                                                    <label for="star4"><i class="ri-star-fill"></i></label>
+                                                                                    <input type="radio" name="rating" id="star3">
+                                                                                    <label for="star3"><i class="ri-star-fill"></i></label>
+                                                                                    <input type="radio" name="rating" id="star2">
+                                                                                    <label for="star2"><i class="ri-star-fill"></i></label>
+                                                                                    <input type="radio" name="rating" id="star1">
+                                                                                    <label for="star1"><i class="ri-star-fill"></i></label>
                                                                                 </div>
+                                                                            </div>
 
-
+                                                                            <form action="" method="POST" novalidate id="review-form">
                                                                                 <p>
                                                                                     <label for="email">Adresse email</label>
                                                                                     <input type="email" name="email" id="email" required placeholder="Votre adresse email">
@@ -739,9 +746,8 @@
                                                                                         Soumettre
                                                                                     </button>
                                                                                 </p>
-
-                                                                            </div>
-                                                                        </form>
+                                                                            </form>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -964,7 +970,11 @@
 
                                         <div class="rating">
                                             <div class="stars">
-                                                <ion-icon name="star-sharp"></ion-icon>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-half-fill"></i>
                                             </div>
                                             <div class="mini-text">
                                                 (2.90)
@@ -1400,17 +1410,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js"></script>
     <script src="./js/main.js "></script>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js "></script>
-    <script src="./js/main.js "></script>
-
-    <!-- IONICONS -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

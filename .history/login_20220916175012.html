@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Market</title>
-    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
 
 </head>
 
+
 <body>
+
     <div id="page" class="site page-single">
 
         <!-- ASIDE -->
@@ -50,7 +52,7 @@
                         <div class="right">
                             <ul class="flexitem main-links">
                                 <li>
-                                    <a href="#">
+                                    <a href="./login.html">
                                         Se connecter
                                         <!-- <i class="ri-user-line" title="Se connecter"></i> -->
                                     </a>
@@ -209,7 +211,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="iscart">
+                                    <a href="./page-cart.html" class="iscart">
                                         <div class="icon-large">
                                             <i class="ri-shopping-cart-line" title="Panier"></i>
                                             <div class="fly-item"><span class="item-number">3</span></div>
@@ -355,25 +357,67 @@
 
         <!-- MAIN SECTION -->
         <main>
-
-
-            <!-- CATEGORIE D'ARTICLE -->
-            <div class="single-category">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="column">
-                            <div class="holder">
-                                <div class="row sidebar">
-                                    <div class="filter">
-                                        <div class="filter-block">
-                                            <h4>Basket pour hommes</h4>
-                                            <ul>
-                                                <li></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+            <div class="container">
+                <div class="wrapper login-wrapper">
+                    <div class="login">
+                        <div class="content-heading">
+                            <div class="y-style">
+                                <div class="logo"><a href=""><span></span></a></div>
+                                <div class="welcome">
+                                    <h2 class="loging">Se connecter</h2>
+                                    <p></p>
                                 </div>
-                                <div class="section"></div>
+                            </div>
+                        </div>
+
+                        <div class="content-form">
+                            <div class="y-style">
+                                <form action="#">
+                                    <p>
+                                        <label for="email">Adresse email</label>
+                                        <input type="email" name="email" id="email" required placeholder="Votre adresse email">
+                                    </p>
+                                    <p>
+                                        <label for="password">Mot de passe</label>
+                                        <input type="password" name="password" id="password" required placeholder="Votre mot de passe">
+                                    </p>
+                                    <!-- <p class="check">
+                                        <input type="checkbox" name="checkbox" id="remember">
+                                        <label for="remember">Se souvenir de moi</label>
+                                    </p> -->
+
+                                    <p class="forgot">
+                                        <a href="./reset-password.html">Mot de passe oublié ?</a>
+                                    </p>
+
+                                    <p>
+                                        <button type="submit" class="primary-button">Se connecter</button>
+                                    </p>
+                                </form>
+
+                                <!-- <div class="social">
+                                    <p>Ou</p>
+                                    <ul>
+                                        <li>
+                                            <a href="" class="google">
+                                                <ion-icon name="logo-google"></ion-icon>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="facebook">
+                                                <ion-icon name="logo-facebook"></ion-icon>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=""></a>
+                                        </li>
+                                    </ul>
+                                </div> -->
+
+                                <div class="afterform">
+                                    <p>Vous n'avez pas encore de compte ?</p>
+                                    <a href="./register.html" class="t-signup">S'inscrire</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -381,107 +425,107 @@
             </div>
 
             <!-- BANNIERE SECTION -->
-            <div class="banners">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="column">
+            <div class="banners ">
+                <div class="container ">
+                    <div class="wrapper ">
+                        <div class="column ">
                             <!-- BANNER SIDE -->
-                            <div class="banner flexwrap">
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="./img/banner/banner1.jpg" alt="">
+                            <div class="banner flexwrap ">
+                                <div class="row ">
+                                    <div class="item ">
+                                        <div class="image ">
+                                            <img src="./img/banner/banner1.jpg " alt=" ">
                                         </div>
 
-                                        <div class="text-content flexcol">
+                                        <div class="text-content flexcol ">
                                             <h4>Promotion</h4>
                                             <h3><span>Ne manquez pas l'occasion de vous procurer</span> <br> un mobilier de salon </h3>
-                                            <a href="#" class="primary-button">Achetez maintenant</a>
+                                            <a href="./single-page.html " class="primary-button ">Achetez maintenant</a>
                                         </div>
 
-                                        <a href="" class="over-link"></a>
+                                        <a href=" " class="over-link "></a>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row ">
                                     <div class="item ">
-                                        <div class="image">
-                                            <img src="./img/banner/banner2.jpg" alt="">
+                                        <div class="image ">
+                                            <img src="./img/banner/banner2.jpg " alt=" ">
                                         </div>
 
-                                        <div class="text-content flexcol">
+                                        <div class="text-content flexcol ">
                                             <h4>Promotion</h4>
                                             <h3><span>Offre hebdomadaire </span> <br>profitez-en</h3>
-                                            <a href="" class="primary-button">Achetez maintenant</a>
+                                            <a href="./single-page.html " class="primary-button ">Achetez maintenant</a>
                                         </div>
 
-                                        <a href="" class="over-link"></a>
+                                        <a href=" " class="over-link "></a>
                                     </div>
                                 </div>
                             </div>
 
 
                             <!-- CATEGORIES -->
-                            <div class="product-categories flexwrap">
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="./img/banner/procat1.jpg" alt="">
+                            <div class="product-categories flexwrap ">
+                                <div class="row ">
+                                    <div class="item ">
+                                        <div class="image ">
+                                            <img src="./img/banner/procat1.jpg " alt=" ">
                                         </div>
-                                        <div class="content mini-links">
+                                        <div class="content mini-links ">
                                             <h4>Beauté</h4>
-                                            <ul class="flexcol">
+                                            <ul class="flexcol ">
                                                 <li>
-                                                    <a href="">Make Up</a>
+                                                    <a href=" ">Make Up</a>
                                                 </li>
                                                 <li>
-                                                    <a href="">Fond de teint</a>
+                                                    <a href=" ">Fond de teint</a>
                                                 </li>
                                                 <li>
-                                                    <a href="">Gommage</a>
+                                                    <a href=" ">Gommage</a>
                                                 </li>
                                                 <li>
-                                                    <a href="">Gel</a>
+                                                    <a href=" ">Gel</a>
                                                 </li>
                                             </ul>
 
 
 
-                                            <div class="second-links">
-                                                <a href="" class="view-all">
+                                            <div class="second-links ">
+                                                <a href=" " class="view-all ">
                                                 Tout voir
-                                                <i class="ri-arrow-right-line"></i>
+                                                <i class="ri-arrow-right-line "></i>
                                             </a>
                                             </div>
                                         </div>
 
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="./img/banner/procat3.jpg" alt="">
+                                <div class="row ">
+                                    <div class="item ">
+                                        <div class="image ">
+                                            <img src="./img/banner/procat3.jpg " alt=" ">
                                         </div>
-                                        <div class="content mini-links">
+                                        <div class="content mini-links ">
                                             <h4>Jardinage</h4>
-                                            <ul class="flexcol">
+                                            <ul class="flexcol ">
                                                 <li>
-                                                    <a href="">Make Up</a>
+                                                    <a href=" ">Make Up</a>
                                                 </li>
                                                 <li>
-                                                    <a href="">Fond de teint</a>
+                                                    <a href=" ">Fond de teint</a>
                                                 </li>
                                                 <li>
-                                                    <a href="">Gommage</a>
+                                                    <a href=" ">Gommage</a>
                                                 </li>
                                                 <li>
-                                                    <a href="">Gel</a>
+                                                    <a href=" ">Gel</a>
                                                 </li>
                                             </ul>
 
-                                            <div class="second-links">
-                                                <a href="" class="view-all">
+                                            <div class="second-links ">
+                                                <a href=" " class="view-all ">
                                                     Tout voir
-                                                    <i class="ri-arrow-right-line"></i>
+                                                    <i class="ri-arrow-right-line "></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -489,33 +533,33 @@
 
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="./img/banner/procat2.jpg" alt="">
+                                <div class="row ">
+                                    <div class="item ">
+                                        <div class="image ">
+                                            <img src="./img/banner/procat2.jpg " alt=" ">
                                         </div>
-                                        <div class="content mini-links">
+                                        <div class="content mini-links ">
                                             <h4>Electronique</h4>
-                                            <ul class="flexcol">
+                                            <ul class="flexcol ">
                                                 <li>
-                                                    <a href="">Iphone 13 pro max</a>
+                                                    <a href=" ">Iphone 13 pro max</a>
                                                 </li>
                                                 <li>
-                                                    <a href="">Airpods</a>
+                                                    <a href=" ">Airpods</a>
                                                 </li>
                                                 <li>
-                                                    <a href="">Ipad air</a>
+                                                    <a href=" ">Ipad air</a>
                                                 </li>
                                                 <li>
-                                                    <a href="">Macbook Air M1</a>
+                                                    <a href=" ">Macbook Air M1</a>
                                                 </li>
                                             </ul>
 
 
-                                            <div class="second-links">
-                                                <a href="" class="view-all">
+                                            <div class="second-links ">
+                                                <a href=" " class="view-all ">
                                                 Tout voir
-                                                <i class="ri-arrow-right-line"></i>
+                                                <i class="ri-arrow-right-line "></i>
                                             </a>
                                             </div>
                                         </div>
@@ -538,19 +582,19 @@
         <!-- FOOTER SECTION -->
         <footer>
             <!-- NEWSLETTER -->
-            <div class="newsletter">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="box">
-                            <div class="content">
+            <div class="newsletter ">
+                <div class="container ">
+                    <div class="wrapper ">
+                        <div class="box ">
+                            <div class="content ">
                                 <h3>Newsletter</h3>
                                 <p>s'inscrire à la newsletter pour être notifé de nos derniers articles et <strong>offres spéciales</strong></p>
                             </div>
-                            <form action="" class="search" method="POST">
+                            <form action=" " class="search " method="POST ">
 
-                                <!-- <span class="icon-large"><i class="ri-mail-line"></i></span> -->
-                                <input type="email" name="email" id="email" placeholder="Votre adresse email" required>
-                                <button type="submit">S'inscrire</button>
+                                <!-- <span class="icon-large "><i class="ri-mail-line "></i></span> -->
+                                <input type="email " name="email " id="email " placeholder="Votre adresse email " required>
+                                <button type="submit ">S'inscrire</button>
                             </form>
                         </div>
                     </div>
@@ -558,94 +602,94 @@
             </div>
             <!-- FIN NEWSLETTER -->
 
-            <div class="widgets">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="flexwrap">
-                            <div class="row">
-                                <div class="item mini-links">
+            <div class="widgets ">
+                <div class="container ">
+                    <div class="wrapper ">
+                        <div class="flexwrap ">
+                            <div class="row ">
+                                <div class="item mini-links ">
                                     <h4>Aide & Contact</h4>
-                                    <ul class="flexcol">
+                                    <ul class="flexcol ">
                                         <li>
-                                            <a href="">Mon compte</a>
+                                            <a href=" ">Mon compte</a>
                                         </li>
                                         <li>
-                                            <a href="">Mes commandes</a>
+                                            <a href=" ">Mes commandes</a>
                                         </li>
                                         <li>
-                                            <a href="">Retour</a>
+                                            <a href=" ">Retour</a>
                                         </li>
                                         <li>
-                                            <a href="">Aide</a>
+                                            <a href=" ">Aide</a>
                                         </li>
                                         <li>
-                                            <a href="">Nous contactez</a>
+                                            <a href=" ">Nous contactez</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="item mini-links">
+                            <div class="row ">
+                                <div class="item mini-links ">
                                     <h4>Catégories</h4>
-                                    <ul class="flexcol">
+                                    <ul class="flexcol ">
                                         <li>
-                                            <a href="">Beauté</a>
+                                            <a href=" ">Beauté</a>
                                         </li>
                                         <li>
-                                            <a href="">Electronique</a>
+                                            <a href=" ">Electronique</a>
                                         </li>
                                         <li>
-                                            <a href="">Sport</a>
+                                            <a href=" ">Sport</a>
                                         </li>
                                         <li>
-                                            <a href="">Education</a>
+                                            <a href=" ">Education</a>
                                         </li>
                                         <li>
-                                            <a href="">Ameublement</a>
+                                            <a href=" ">Ameublement</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="item mini-links">
+                            <div class="row ">
+                                <div class="item mini-links ">
                                     <h4>À propos </h4>
-                                    <ul class="flexcol">
+                                    <ul class="flexcol ">
                                         <li>
-                                            <a href="">Informations</a>
+                                            <a href=" ">Informations</a>
                                         </li>
                                         <li>
-                                            <a href="">Politique de retour</a>
+                                            <a href=" ">Politique de retour</a>
                                         </li>
                                         <li>
-                                            <a href=""></a>
+                                            <a href=" "></a>
                                         </li>
                                         <li>
-                                            <a href=""></a>
+                                            <a href=" "></a>
                                         </li>
                                         <li>
-                                            <a href=""></a>
+                                            <a href=" "></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="item mini-links">
+                            <div class="row ">
+                                <div class="item mini-links ">
                                     <h4>Compte</h4>
-                                    <ul class="flexcol">
+                                    <ul class="flexcol ">
                                         <li>
-                                            <a href="">Mon compte</a>
+                                            <a href=" ">Mon compte</a>
                                         </li>
                                         <li>
-                                            <a href="">Suivre ma commande</a>
+                                            <a href=" ">Suivre ma commande</a>
                                         </li>
                                         <li>
-                                            <a href="">Retour</a>
+                                            <a href=" ">Retour</a>
                                         </li>
                                         <li>
-                                            <a href="">Liste de souhait</a>
+                                            <a href=" ">Liste de souhait</a>
                                         </li>
                                         <li>
-                                            <a href="">FAQ</a>
+                                            <a href=" ">FAQ</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -657,23 +701,23 @@
 
             <hr>
             <!-- FOOTER INFO -->
-            <div class="footer-info">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="flexcol" style="display: none;">
-                            <div class="logo"><a href="">Makeety<span class="circle"></span></a></div>
+            <div class="footer-info ">
+                <div class="container ">
+                    <div class="wrapper ">
+                        <div class="flexcol " style="display: none; ">
+                            <div class="logo "><a href="./index.html">Makeety<span class="circle "></span></a></div>
 
-                            <div class="socials">
-                                <ul class="flexitem">
-                                    <li><i class="ri-twitter-line"></i></li>
-                                    <li><i class="ri-facebook-line"></i></li>
-                                    <li><i class="ri-instagram-line"></i></li>
-                                    <li><i class="ri-youtube-line"></i></li>
+                            <div class="socials ">
+                                <ul class="flexitem ">
+                                    <li><i class="ri-twitter-line "></i></li>
+                                    <li><i class="ri-facebook-line "></i></li>
+                                    <li><i class="ri-instagram-line "></i></li>
+                                    <li><i class="ri-youtube-line "></i></li>
                                 </ul>
                             </div>
                         </div>
 
-                        <p class="mini-text">Copyright &copy; 2022</p>
+                        <p class="mini-text ">Copyright &copy; 2022</p>
                     </div>
                 </div>
             </div>
@@ -762,13 +806,14 @@
         <!-- MOBILE MENU -->
 
 
+
         <!-- MOBILE SEARCH FORM -->
-        <div class="search-bottom desktop-hide">
-            <div class="container">
-                <div class="wrapper">
-                    <form action="." class="search">
-                        <a href="#" class="t-close search-close flexcenter">
-                            <i class="ri-close-line"></i>
+        <div class="search-bottom desktop-hide ">
+            <div class="container ">
+                <div class="wrapper ">
+                    <form action=". " class="search ">
+                        <a href="# " class="t-close search-close flexcenter ">
+                            <i class="ri-close-line "></i>
                         </a>
                         <!-- <span class=" icon-large "><i class="ri-search-line "></i></span> -->
                         <input type="search " name="search " id="search " placeholder="Chercher un article " required>
@@ -779,16 +824,11 @@
         </div>
 
 
-        <div class="overlay"></div>
+        <div class="overlay "></div>
 
     </div>
 
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js"></script>
-    <script src="./js/main.js "></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js "></script>
@@ -797,6 +837,3 @@
     <!-- IONICONS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
-
-</html>
