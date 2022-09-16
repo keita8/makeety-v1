@@ -2343,8 +2343,8 @@ input) {
 }
 
 @media screen and (max-width: 481px) {
-    div.login h2.reset {
-        font-size: 17px;
+    .login h2.reset {
+        font-size: 1em;
     }
     .iscart {
         display: none;

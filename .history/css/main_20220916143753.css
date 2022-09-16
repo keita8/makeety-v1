@@ -2102,10 +2102,6 @@ select) {
 
 /* ---------------------------------------------- LOGIN ------------------------------------------- */
 
-#page>main>div.container>div>div {
-    max-width: 500px;
-}
-
 .login-wrapper>div {
     display: flex;
     flex-direction: column;
@@ -2176,10 +2172,6 @@ select) {
     gap: 10px;
     font-size: 2em;
     font-weight: var(--fw3);
-}
-
-.login h2.reset {
-    font-size: 1.5em;
 }
 
 div.login h2 {
@@ -2343,9 +2335,6 @@ input) {
 }
 
 @media screen and (max-width: 481px) {
-    div.login h2.reset {
-        font-size: 17px;
-    }
     .iscart {
         display: none;
     }
@@ -2646,6 +2635,6 @@ input) {
         margin-top: 0;
     }
     #page>main>div.container>div>div {
-        max-width: 500px;
+        max-width: 50px;
     }
 }

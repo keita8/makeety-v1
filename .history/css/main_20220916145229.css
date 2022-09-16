@@ -2178,9 +2178,7 @@ select) {
     font-weight: var(--fw3);
 }
 
-.login h2.reset {
-    font-size: 1.5em;
-}
+.login h2.reset {}
 
 div.login h2 {
     margin-bottom: 1.5em;
@@ -2343,9 +2341,6 @@ input) {
 }
 
 @media screen and (max-width: 481px) {
-    div.login h2.reset {
-        font-size: 17px;
-    }
     .iscart {
         display: none;
     }
