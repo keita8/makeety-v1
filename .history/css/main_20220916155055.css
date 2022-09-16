@@ -2397,8 +2397,8 @@ input) {
     .login h2.loging {
         font-size: 1.5em;
     }
-    .login-wrapper .reset-password {
-        margin-top: 2em;
+    .login-wrapper .rest {
+        margin-top: 20px;
     }
 }
 
